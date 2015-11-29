@@ -1,0 +1,35 @@
+Info4
+----------
+
+Disease: Parkinson's Disease
+Date: 03 May 2015
+Known Disease Genes: 15
+
+CYP2D6 (1565)	
+GAK (2580)		
+MAOB (4129)		
+PON1 (5444)		
+COMT (1312)		
+GBA (2629)		
+BST1 (683)		
+DRD2 (1813)		
+LRRK2 (120892)	
+MAPT (4137)		
+PINK1 (65018)	
+APOE (348)		
+BDNF (627)		
+PARK2 (5071)		
+SNCA (6622)	
+
+Network Size: 3015 (1514 training + 1501 testing)
+
+Running 4 sets on cluster, each have:
+- 4 Islands
+- Job#: 5
+
+Threshold: top 50 (3.3% like Koosha's)
+
+Notes:
+- Data obtained using all datasets from GeneMANIA (except "Attributes")
+- Using "Eccentricity", "Closeness", "Radiality", "Degree" and their averages
+- Input file from "Parkinson - Feb 4"

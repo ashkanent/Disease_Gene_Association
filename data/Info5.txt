@@ -1,0 +1,47 @@
+Breast Cancer
+
+Experiment first run on 18 May 2015
+
+15 Known Disease Genes
+2015 nodes
+309765 Edges
+
+BRCA1
+AR
+ATM  
+CHEK2 
+BRCA2 
+STK11  
+RAD51 
+PTEN 
+BARD1  
+TP53 
+RB1CC1 
+NCOA3  
+PIK3CA  
+PPM1D  
+CASP8 
+
+
+Network Size: 2015 (1014 training + 1001 testing)
+
+Running 4 sets on cluster, each have:
+- 4 Islands
+- Job#: 5
+
+#################################
+#Parameters for each set/island:
+jobs = 5
+quit-on-run-complete = true
+generations = 50
+pop.subpop.0.size =	2500
+breed.elite.0 = 10
+#################################
+
+
+Threshold: top 25 (top 2.5% like Koosha's)
+
+Notes:
+- Data obtained using all datasets from GeneMANIA (except "Attributes")
+- Using "Eccentricity", "Closeness", "Radiality", "Degree" and their averages
+- Input file from "Breast Cancer - Feb 5"

@@ -1,0 +1,408 @@
+/*
+Copyright 2006 by Sean Luke
+Licensed under the Academic Free License version 3.0
+See the file "LICENSE" for more information
+*/
+
+
+package ec.app.DiseaseGenePrediction;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import ec.util.*;
+import ec.*;
+import ec.gp.*;
+import ec.gp.koza.*;
+import ec.simple.*;
+
+public class NetworkAnalyzer extends GPProblem implements SimpleProblemForm
+  {
+  private static final long serialVersionUID = 1;
+  private static int cnt = 0;
+  private static int MaxHits = 0;
+  private static int MaxJobNo = 0;
+  // defined variables for terminals:
+  public double degree;
+  public double radiality;
+  public double closeness;
+  public double stress;
+  public double betweenness;
+  public double centroid;
+  public double eccentricity;
+  public double eigen;
+  public double bridging;
+  
+  // three lists to store the input data:
+  List<double[]> TrainingData = new ArrayList<double[]>();
+  List<double[]> TestingData = new ArrayList<double[]>();
+  List<double[]> AllGenes = new ArrayList<double[]>();
+  List<double[]> KnownDiseaseGenes = new ArrayList<double[]>();
+ 
+  Map<Double, String> geneID = new HashMap<Double, String>(); // to retrieve gene names at the end (when they are ranked)
+  
+  public void setup(final EvolutionState state,
+      final Parameter base)
+      {
+	  System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");	
+      super.setup(state, base);
+      
+      // verify our input is the right class (or subclasses from it)
+      if (!(input instanceof DoubleData))
+          state.output.fatal("GPData class must subclass from " + DoubleData.class,
+              base.push(P_DATA), null);
+      
+      /*
+      ****************************
+      ** Reading Data from file***
+      **************************** 
+      */
+      
+      // Reading GeneMANIA output and creating a Map for <genes, scores>
+      System.out.println("Parsing the input data from GeneMANIA...\n\n");
+      Map<String, Integer> genes = new HashMap<String, Integer>();
+      
+      Scanner sc;
+      try 
+      {
+    	  //sc = new Scanner(new File("Z:\\Sandcastle Workplace\\ClusterGPnetworkAnalyzer\\data\\Mania3.txt"));
+    	  ///home/std/ae13cu/Sandcastle Workplace/ClusterGPnetworkAnalyzer
+    	  sc = new Scanner(new File("../data/Mania3.txt"));
+    	  
+    	  for(int i=0; i<6; i++)
+    		  sc.nextLine();		// to skip the first few lines
+
+    	  // reading the Known Disease Genes:
+    	  for(int i=0; i<15; i++)
+    	  {
+    		  genes.put(sc.next()+"*KDG*", 1800+i);
+    		  sc.nextLine();
+    	  }
+    	  for(int i=22; i<3022;i++)
+    	  {
+    		  genes.put(sc.next(), (int)(sc.nextDouble()*100));
+    		  sc.nextLine();
+    	  }
+    	  sc.close();
+
+      } catch (FileNotFoundException e) {
+    	  // TODO Auto-generated catch block
+    	  e.printStackTrace();
+      }
+      
+      // I parse the CentiScape data and also create the Training and Testing data in this section:
+      System.out.println("Parsing the input data from CentiScape...\n");
+      
+      try {
+			String line = "";
+			
+			//BufferedReader br = new BufferedReader(new FileReader("Z:\\Sandcastle Workplace\\ClusterGPnetworkAnalyzer\\data\\Node3.csv"));
+			///home/std/ae13cu/Sandcastle Workplace/ClusterGPnetworkAnalyzer
+			BufferedReader br = new BufferedReader(new FileReader("/home/std/ae13cu/Sandcastle Workplace/ClusterGPnetworkAnalyzer/data/node3.csv"));
+			br.readLine();	// to read the headers and skip them!
+			
+			/*System.out.println(genes.get("Mar-02"));
+			System.out.println("____");*/
+			
+			AllGenes.clear();  // initialize the list
+			for(int i=1; i<3016; i++)
+			{
+				String[] allValues = new String[12];
+				double[] finalValues = new double[11];
+				line = br.readLine();
+				
+				allValues = line.split(",");
+				
+				finalValues[0] = Double.valueOf(allValues[0]);
+				finalValues[1] = Double.valueOf(allValues[1]);
+				finalValues[2] = Double.valueOf(allValues[2]);
+				finalValues[3] = Double.valueOf(allValues[3]);
+				finalValues[4] = Double.valueOf(allValues[4]);
+				finalValues[5] = Double.valueOf(allValues[5]);
+				finalValues[6] = Double.valueOf(allValues[6]);
+				finalValues[7] = Double.valueOf(allValues[9]);
+				finalValues[8] = Double.valueOf(allValues[11]);
+					//System.out.println("i is: "+i);
+				finalValues[9] = genes.get(allValues[7]);		// expected result which is the GeneMANIA's scores
+				
+				finalValues[10] = i*1.0;		// to store geneID
+				geneID.put(i*1.0, allValues[7]);
+				
+				AllGenes.add(finalValues);
+				
+			}
+			
+			br.close();
+			
+			Comparator<double[]> GenesComparator = new Comparator<double[]>()
+			{
+				public int compare(double[] d1, double[] d2) {
+					   //double score1 = d1[9];
+					   //double score2 = d2[9];
+					   double result = d2[9]-d1[9];
+			    		  
+			    	   if(result>0.000001) return 1;
+			    	   if(result<-0.000001) return -1;
+			    	   return 0;
+					   //descending order
+					   //return (int)(score2 - score1);
+				    }
+						
+			};
+			
+			
+			Collections.sort(AllGenes, GenesComparator);
+			
+			
+			
+			/****************************************************************
+			****** up to this point I have AllGenes sorted, based on their***
+			****** GeneMANIA's scores (descending order) and now I'll use****
+			****** it to create my Training and Testing data sets.***********
+			*****************************************************************/
+			
+			// creating the KnownDiseaseGenes list:
+			KnownDiseaseGenes.clear();
+			for(int i=0; i<15; i++)
+				KnownDiseaseGenes.add(AllGenes.get(i));
+			
+			// Leave One Out:
+			int LeaveOneOut = 7;	
+			TestingData.add(AllGenes.get(LeaveOneOut));
+			for(int i=0; i<15; i++)
+				if(i != LeaveOneOut)
+					TrainingData.add(AllGenes.get(i));
+			
+			// now adding rest of the genes to the Training and Testing data sets:
+			for(int i=15; i<3015; i++)
+			{
+				if(i%10 >= 5)
+					TrainingData.add(AllGenes.get(i));
+				else
+					TestingData.add(AllGenes.get(i));
+			}
+			
+			// I shuffle the data to make them random
+			Collections.shuffle(TrainingData); 	
+			Collections.shuffle(TestingData);
+			
+			System.out.println("Data successfully parsed into the system.");
+			
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+      
+      }
+  
+  
+  
+  
+  
+  
+  
+  /*********************************TRAINING*****************************************/
+  
+  public void evaluate(final EvolutionState state, 
+      final Individual ind, 
+      final int subpopulation,
+      final int threadnum)
+      {
+	  
+      if (!ind.evaluated)  // don't bother reevaluating
+          {
+          DoubleData input = (DoubleData)(this.input);
+      
+          int hits = 0;
+          double expectedResult;
+          double sum = 0;
+
+          for (int y=0; y<TrainingData.size(); y++)
+          {
+              betweenness = TrainingData.get(y)[0];
+              bridging = TrainingData.get(y)[1];
+              centroid = TrainingData.get(y)[2];
+              closeness = TrainingData.get(y)[3];
+              degree = TrainingData.get(y)[4];
+              eccentricity = TrainingData.get(y)[5];
+              eigen = TrainingData.get(y)[6];
+              radiality = TrainingData.get(y)[7];
+              stress = TrainingData.get(y)[8];
+              expectedResult = TrainingData.get(y)[9];
+              
+              ((GPIndividual)ind).trees[0].child.eval(
+                  state,threadnum,input,stack,((GPIndividual)ind),this);
+              
+              if(Math.abs(input.x - expectedResult) < 10)
+            	  hits++;
+              
+              sum += Math.abs(input.x - expectedResult);
+                        
+          }
+          
+          KozaFitness f = ((KozaFitness)ind.fitness);
+          f.setStandardizedFitness(state, sum);
+          f.hits = hits;
+          ind.evaluated = true;
+          }
+      }
+  
+  
+  
+  
+  
+  /*******************************TESTING*****************************************/
+  
+  public void describe(final EvolutionState state, final Individual ind, final int subpopulation, final int threadnum, int log)
+  {
+      DoubleData input = (DoubleData)(this.input);
+
+      List<double[]> Result = new ArrayList<double[]>();
+      
+      int hits = 0;
+      
+      double temp = 0.0;
+      double expectedResult;
+      double sum = 0;
+
+      Result.clear();
+      
+      for (int y=0; y<TestingData.size(); y++)
+      {
+    	  double[] loadResult = new double[12];
+    	  
+    	  betweenness = TestingData.get(y)[0];
+          bridging = TestingData.get(y)[1];
+          centroid = TestingData.get(y)[2];
+          closeness = TestingData.get(y)[3];
+          degree = TestingData.get(y)[4];
+          eccentricity = TestingData.get(y)[5];
+          eigen = TestingData.get(y)[6];
+          radiality = TestingData.get(y)[7];
+          stress = TestingData.get(y)[8];
+          expectedResult = TestingData.get(y)[9];
+          
+          ((GPIndividual)ind).trees[0].child.eval(
+              state,threadnum,input,stack,((GPIndividual)ind),this);
+
+          if(Math.abs(expectedResult - input.x) < 10)
+        	  hits++;
+
+          sum += Math.abs(expectedResult - input.x);
+          temp = input.x;
+          
+          loadResult[0] = TestingData.get(y)[0];
+          loadResult[1] = TestingData.get(y)[1];
+          loadResult[2] = TestingData.get(y)[2];
+          loadResult[3] = TestingData.get(y)[3];
+          loadResult[4] = TestingData.get(y)[4];
+          loadResult[5] = TestingData.get(y)[5];
+          loadResult[6] = TestingData.get(y)[6];
+          loadResult[7] = TestingData.get(y)[7];
+          loadResult[8] = TestingData.get(y)[8];
+          loadResult[9] = TestingData.get(y)[9];	// Expected Result (GeneMANIA's score)
+          loadResult[10] = temp;					// GP result
+          loadResult[11] = TestingData.get(y)[10];	// Genes' ID
+          
+          Result.add(loadResult);
+          
+      }
+      
+      Comparator<double[]> ResultsComparator = new Comparator<double[]>()
+      {
+    	  public int compare(double[] d1, double[] d2) 
+    	  {
+    		  //double score1 = d1[10];
+    		  //double score2 = d2[10];
+    		  double result = d2[10]-d1[10];
+    		  
+    		  if(result>0.000001) return 1;
+    		  if(result<-0.000001) return -1;
+    		  return 0;
+    		  //descending order
+    		  //return (double)(score2 - score1);
+    	  }
+
+      };
+          			
+      
+      Collections.sort(Result, ResultsComparator);
+
+      KozaFitness f = ((KozaFitness)ind.fitness);
+      f.setStandardizedFitness(state, sum);
+      f.hits = hits;
+      ind.evaluated = true;
+      
+      
+      
+      BufferedWriter out = null;
+      BufferedWriter out_summary = null;
+      try  
+      {
+    	  if(cnt%2==1) // skipping the problem (?) of double outputs!!
+    	  {
+    		  String name = String.valueOf(System.nanoTime());
+    		  FileWriter fstream = new FileWriter("/home/std/ae13cu/Sandcastle Workplace/ClusterGPnetworkAnalyzer/result"+name+".txt", true); //true tells to append data.
+    		  out = new BufferedWriter(fstream);
+    		  out.write("Testing Genes, ranked by GP:\n\r");
+    		  out.write("Job#: "+(cnt/2)+"\r\n");
+    		  out.write("Hits: "+hits+" - Sum: "+sum+"\r\n");
+    		  
+    		  if(hits>MaxHits)
+    		  {
+    			  MaxHits = hits;
+    			  MaxJobNo = (cnt/2);
+    		  }
+    		  out.write("Max Hits so far: "+MaxHits+" in Job# "+MaxJobNo+"\n\r");
+    		  for(int i=0; i<Result.size(); i++)
+    		  {
+    			  out.write(String.valueOf(i+1)+"- "+geneID.get(Result.get(i)[11])+" : "+String.valueOf(Result.get(i)[10])+"\n\r");
+    			  if((geneID.get(Result.get(i)[11])).endsWith("*KDG*"))
+    			  {
+    				  //System.out.println("------------"+i+"-----------------");
+    				  FileWriter fstream_summary = new FileWriter("/home/std/ae13cu/Sandcastle Workplace/ClusterGPnetworkAnalyzer/result_summary"+name+".txt", true);
+    				  out_summary = new BufferedWriter(fstream_summary);
+    				  out_summary.write(geneID.get(Result.get(i)[11])+" - "+(i+1)+"  ; ");
+    			  }
+    		  }
+    		  out.write("\r\n==========================================================================================================\r\n");
+    	  }
+    	  cnt++;
+      }
+      catch (IOException e)
+      {
+          System.err.println("Error: " + e.getMessage());
+      }
+      finally
+      {
+          if(out != null) {
+              try {
+                  out.close();
+                  out_summary.close();
+              } catch (IOException ex) {
+                  Logger.getLogger(NetworkAnalyzer.class.getName()).log(Level.SEVERE, null, ex);
+              }
+          }
+      }
+      
+  }	
+  }
+

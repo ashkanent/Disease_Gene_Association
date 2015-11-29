@@ -1,0 +1,146 @@
+# Ashkan Entezari
+
+parent.0 = ../../gp/koza/koza.params
+
+
+#number of trials
+jobs = 5
+quit-on-run-complete = true
+generations = 100
+#pop.subpop.0.size =	3000
+breed.elite.0 = 5
+
+
+##############################
+#########ISLAND MODEL#########
+##############################
+
+exch = ec.exchange.IslandExchange
+exch.select = ec.select.TournamentSelection
+exch.select.size = 2
+exch.select-to-die = ec.select.RandomSelection
+exch.server-addr = 127.0.0.1
+exch.server-port = 55565
+exch.id = DiseaseGenePrediction_S4_I1
+exch.client-port = 55561
+seed.0 = 5921623
+exch.chatty = false
+
+
+######SERVER######
+
+exch.i-am-server = true
+exch.num-islands = 4
+#____________________________________________#
+exch.island.0.id = DiseaseGenePrediction_S4_I1
+exch.island.1.id = DiseaseGenePrediction_S4_I2
+exch.island.2.id = DiseaseGenePrediction_S4_I3
+exch.island.3.id = DiseaseGenePrediction_S4_I4
+#____________________________________________#
+exch.island.0.num-mig = 3
+exch.island.0.mig.0 = DiseaseGenePrediction_S4_I2
+exch.island.0.mig.1 = DiseaseGenePrediction_S4_I3
+exch.island.0.mig.2 = DiseaseGenePrediction_S4_I4
+exch.island.1.num-mig = 3
+exch.island.1.mig.0 = DiseaseGenePrediction_S4_I1
+exch.island.1.mig.1 = DiseaseGenePrediction_S4_I3
+exch.island.1.mig.2 = DiseaseGenePrediction_S4_I4
+exch.island.2.num-mig = 3
+exch.island.2.mig.0 = DiseaseGenePrediction_S4_I1
+exch.island.2.mig.1 = DiseaseGenePrediction_S4_I2
+exch.island.2.mig.2 = DiseaseGenePrediction_S4_I4
+exch.island.3.num-mig = 3
+exch.island.3.mig.0 = DiseaseGenePrediction_S4_I1
+exch.island.3.mig.1 = DiseaseGenePrediction_S4_I2
+exch.island.3.mig.2 = DiseaseGenePrediction_S4_I3
+#__________________________________#
+exch.island.0.size = 20
+exch.island.1.size = 20
+exch.island.2.size = 20
+exch.island.3.size = 20
+
+#__________________________________#
+exch.mailbox-capacity = 200
+#__________________________________#
+exch.island.0.mod = 4
+exch.island.1.mod = 4
+exch.island.2.mod = 4
+exch.island.3.mod = 4
+
+exch.island.0.start = 1
+exch.island.1.start = 2
+exch.island.2.start = 3
+exch.island.3.start = 4
+
+#_________________________________#
+
+
+############################
+#########STATISTICS#########
+############################
+stat.num-children = 2
+stat.child.0 = ec.simple.SimpleShortStatistics
+#stat.child.0.file = Z:/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/I1_shortStatistics.stat
+#stat.child.1 = ec.simple.SimpleStatistics
+#stat.child.1.file = Z:/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/I1_Statistics.stat
+stat.child.0.file = /home/std/ae13cu/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/S4/I1_shortStatistics.stat
+stat.child.1 = ec.simple.SimpleStatistics
+stat.child.1.file = /home/std/ae13cu/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/S4/I1_Statistics.stat
+
+
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+
+# We have ten functions in the function set.  They are:
+gp.fs.0.size = 10
+#gp.fs.0.func.0 = ec.app.DiseaseGenePrediction.BRG
+#gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.0 = ec.app.DiseaseGenePrediction.BTWS4
+gp.fs.0.func.0.nc = nc0
+#gp.fs.0.func.0 = ec.app.DiseaseGenePrediction.CLS
+#gp.fs.0.func.0.nc = nc0
+#gp.fs.0.func.3 = ec.app.DiseaseGenePrediction.CNT
+#gp.fs.0.func.3.nc = nc0
+#gp.fs.0.func.1 = ec.app.DiseaseGenePrediction.DGR
+#gp.fs.0.func.1.nc = nc0
+#gp.fs.0.func.2 = ec.app.DiseaseGenePrediction.ECC
+#gp.fs.0.func.2.nc = nc0
+#gp.fs.0.func.6 = ec.app.DiseaseGenePrediction.EIG
+#gp.fs.0.func.6.nc = nc0
+#gp.fs.0.func.3 = ec.app.DiseaseGenePrediction.RAD
+#gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.1 = ec.app.DiseaseGenePrediction.STRS4
+gp.fs.0.func.1.nc = nc0
+#gp.fs.0.func.4 = ec.app.DiseaseGenePrediction.AvgCLO
+#gp.fs.0.func.4.nc = nc0
+#gp.fs.0.func.5 = ec.app.DiseaseGenePrediction.AvgDEG
+#gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.2 = ec.app.DiseaseGenePrediction.AvgSTR
+gp.fs.0.func.2.nc = nc0
+gp.fs.0.func.3 = ec.app.DiseaseGenePrediction.AvgBTW
+gp.fs.0.func.3.nc = nc0
+
+gp.fs.0.func.4 = ec.app.DiseaseGenePrediction.Add
+gp.fs.0.func.4.nc = nc2
+gp.fs.0.func.5 = ec.app.DiseaseGenePrediction.Sub
+gp.fs.0.func.5.nc = nc2
+gp.fs.0.func.6 = ec.app.DiseaseGenePrediction.Mul
+gp.fs.0.func.6.nc = nc2
+gp.fs.0.func.7 = ec.app.DiseaseGenePrediction.Div
+gp.fs.0.func.7.nc = nc2
+gp.fs.0.func.8 = ec.app.DiseaseGenePrediction.Max
+gp.fs.0.func.8.nc = nc2
+gp.fs.0.func.9 = ec.app.DiseaseGenePrediction.Min
+gp.fs.0.func.9.nc = nc2
+
+
+
+
+
+
+eval.problem = ec.app.DiseaseGenePrediction.NetworkAnalyzerS4
+eval.problem.data = ec.app.DiseaseGenePrediction.DoubleData
+

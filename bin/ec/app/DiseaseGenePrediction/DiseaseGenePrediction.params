@@ -1,0 +1,94 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = ../../gp/koza/koza.params
+
+# the next four items are already defined in koza.params, but we
+# put them here to be clear.
+
+#number of trials
+jobs = 1
+quit-on-run-complete = true
+#pop.subpop.0.species.fitness = ec.simple.SimpleFitness
+generations = 10
+pop.subpop.0.size =	250
+breed.elite.0 = 10
+
+
+############################
+#########STATISTICS#########
+############################
+stat.num-children = 2
+stat.child.0 = ec.simple.SimpleShortStatistics
+stat.child.0.file = Z:/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/S2/I1_shortStatistics.stat
+stat.child.1 = ec.simple.SimpleStatistics
+stat.child.1.file = Z:/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/S2/I1_Statistics.stat
+#stat.child.0.file = /home/std/ae13cu/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/S2/I1_shortStatistics.stat
+#stat.child.1 = ec.simple.SimpleStatistics
+#stat.child.1.file = /home/std/ae13cu/Sandcastle\ Workplace/ClusterGPnetworkAnalyzer/output/S2/I1_Statistics.stat
+
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+
+# We have ten functions in the function set.  They are:
+gp.fs.0.size = 24
+gp.fs.0.func.0 = ec.app.DiseaseGenePrediction.BRGS2
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = ec.app.DiseaseGenePrediction.BTWS2
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = ec.app.DiseaseGenePrediction.CLSS2
+gp.fs.0.func.2.nc = nc0
+gp.fs.0.func.3 = ec.app.DiseaseGenePrediction.CNTS2
+gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.4 = ec.app.DiseaseGenePrediction.DGRS2
+gp.fs.0.func.4.nc = nc0
+gp.fs.0.func.5 = ec.app.DiseaseGenePrediction.ECCS2
+gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.6 = ec.app.DiseaseGenePrediction.EIGS2
+gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.7 = ec.app.DiseaseGenePrediction.RADS2
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = ec.app.DiseaseGenePrediction.STRS2
+gp.fs.0.func.8.nc = nc0
+gp.fs.0.func.9 = ec.app.DiseaseGenePrediction.AvgCLO
+gp.fs.0.func.9.nc = nc0
+gp.fs.0.func.10 = ec.app.DiseaseGenePrediction.AvgDEG
+gp.fs.0.func.10.nc = nc0
+gp.fs.0.func.11 = ec.app.DiseaseGenePrediction.AvgECC
+gp.fs.0.func.11.nc = nc0
+gp.fs.0.func.12 = ec.app.DiseaseGenePrediction.AvgRAD
+gp.fs.0.func.12.nc = nc0
+gp.fs.0.func.13 = ec.app.DiseaseGenePrediction.AvgCNT
+gp.fs.0.func.13.nc = nc0
+gp.fs.0.func.14 = ec.app.DiseaseGenePrediction.AvgEIG
+gp.fs.0.func.14.nc = nc0
+gp.fs.0.func.15 = ec.app.DiseaseGenePrediction.AvgSTR
+gp.fs.0.func.15.nc = nc0
+gp.fs.0.func.16 = ec.app.DiseaseGenePrediction.AvgBTW
+gp.fs.0.func.16.nc = nc0
+gp.fs.0.func.17 = ec.app.DiseaseGenePrediction.AvgBRG
+gp.fs.0.func.17.nc = nc0
+
+gp.fs.0.func.18 = ec.app.DiseaseGenePrediction.Add
+gp.fs.0.func.18.nc = nc2
+gp.fs.0.func.19 = ec.app.DiseaseGenePrediction.Sub
+gp.fs.0.func.19.nc = nc2
+gp.fs.0.func.20 = ec.app.DiseaseGenePrediction.Mul
+gp.fs.0.func.20.nc = nc2
+gp.fs.0.func.21 = ec.app.DiseaseGenePrediction.Div
+gp.fs.0.func.21.nc = nc2
+gp.fs.0.func.22 = ec.app.DiseaseGenePrediction.Max
+gp.fs.0.func.22.nc = nc2
+gp.fs.0.func.23 = ec.app.DiseaseGenePrediction.Min
+gp.fs.0.func.23.nc = nc2
+
+
+
+eval.problem = ec.app.DiseaseGenePrediction.NetworkAnalyzerS2
+eval.problem.data = ec.app.DiseaseGenePrediction.DoubleData
+
+

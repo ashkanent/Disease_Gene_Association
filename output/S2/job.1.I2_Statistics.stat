@@ -1,0 +1,2985 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11875.757312643434 Adjusted=8.419806633039873E-5 Hits=20
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (+ BTW BTW) (MAX AvgBTW AvgSTR)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11875.757312643434 Adjusted=8.419806633039873E-5 Hits=20
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (MAX AvgSTR AvgSTR) (MAX AvgBTW AvgSTR)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11875.757312643434 Adjusted=8.419806633039873E-5 Hits=20
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (MAX AvgSTR AvgSTR) (MIN AvgBTW AvgBTW)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11875.757312643434 Adjusted=8.419806633039873E-5 Hits=20
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN (+ AvgBTW
+     BTW) AvgBTW)) (/ (MAX AvgSTR AvgSTR) (MAX
+     AvgBTW AvgSTR)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11875.757312643434 Adjusted=8.419806633039873E-5 Hits=20
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (MAX AvgSTR AvgSTR) (MAX AvgSTR AvgBTW)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11872.060626249619 Adjusted=8.422428146194628E-5 Hits=20
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (MIN AvgBTW BTW) (/ STR BTW)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11866.663337603746 Adjusted=8.42625857805901E-5 Hits=19
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN STR AvgBTW))
+     (/ (MIN BTW BTW) (MAX STR BTW)))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11866.663337603746 Adjusted=8.42625857805901E-5 Hits=19
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN STR AvgBTW))
+     (/ (MAX AvgSTR AvgSTR) (MAX AvgBTW AvgSTR)))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11827.82904653706 Adjusted=8.453922159714992E-5 Hits=19
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (+ (/ (MAX (/ (MAX AvgSTR AvgSTR) (* AvgBTW
+         AvgSTR)) (+ (MAX AvgSTR (MIN STR AvgBTW))
+         (- AvgSTR AvgBTW))) (/ (MIN BTW STR) (* STR
+         BTW))) BTW) (MAX (MIN AvgSTR AvgBTW) (* BTW
+         AvgSTR))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11820.442729391156 Adjusted=8.459204370323955E-5 Hits=19
+Tree 0:
+ (MAX (* (/ AvgBTW AvgSTR) (MIN AvgBTW AvgBTW))
+     (/ (+ BTW BTW) (MAX (/ AvgBTW AvgSTR) (/
+         (MIN BTW STR) (/ STR BTW)))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11602.010405524084 Adjusted=8.618453013917056E-5 Hits=20
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (- AvgSTR (- AvgBTW STR)))
+     (* (MIN (+ (MIN STR STR) (* AvgBTW AvgBTW))
+         (/ (+ (- (/ (MAX (+ (* STR AvgBTW) (+ AvgBTW
+             AvgBTW)) (* (* (MIN (/ AvgSTR (MAX (- (*
+             STR STR) BTW) AvgSTR)) STR) BTW) (MAX BTW
+             STR))) (+ (/ (+ AvgSTR BTW) (* BTW BTW))
+             (/ (* BTW AvgBTW) (/ BTW BTW)))) (MAX BTW
+             BTW)) (* AvgBTW AvgBTW)) AvgSTR)) (MIN (/
+         AvgSTR AvgBTW) (/ BTW BTW))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11602.001092104098 Adjusted=8.618459931719778E-5 Hits=20
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (- AvgSTR (- AvgBTW STR)))
+     (* (MIN (+ (MIN STR STR) (* AvgBTW AvgBTW))
+         (/ (+ (- (/ (MAX (+ (/ AvgBTW AvgSTR) (+
+             AvgBTW AvgBTW)) (* (* (MIN (/ AvgSTR (MAX
+             (- (* STR STR) BTW) AvgSTR)) STR) BTW) (MAX
+             BTW STR))) (+ (/ (+ AvgSTR BTW) (* BTW BTW))
+             (/ (* BTW AvgBTW) (/ BTW BTW)))) (MAX BTW
+             BTW)) (* AvgBTW AvgBTW)) AvgSTR)) (MIN (/
+         AvgSTR AvgBTW) (/ BTW BTW))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11602.001092104098 Adjusted=8.618459931719778E-5 Hits=20
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (- AvgSTR (- (- STR BTW)
+     STR))) (* (MIN (+ (MIN STR STR) (* AvgBTW
+     AvgBTW)) (/ (+ (- (/ (MAX (+ (/ AvgBTW AvgSTR)
+     (+ AvgBTW AvgBTW)) (* (* (MIN (/ AvgSTR (MAX
+     (- (* STR STR) BTW) AvgSTR)) STR) BTW) (MAX
+     BTW STR))) (+ (/ (+ AvgSTR BTW) (* BTW BTW))
+     (/ (* BTW AvgBTW) (/ BTW BTW)))) (MAX BTW
+     BTW)) (* AvgBTW AvgBTW)) AvgSTR)) (MIN (/
+     AvgSTR AvgBTW) (/ BTW BTW))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11601.634617416443 Adjusted=8.618732149842274E-5 Hits=20
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (- AvgSTR (- AvgBTW STR)))
+     (* (MIN (+ (MIN STR STR) (* AvgBTW AvgBTW))
+         (/ (+ (- (/ (MAX (+ (/ AvgBTW AvgSTR) (MAX
+             (- (/ (+ (+ BTW AvgSTR) STR) (MAX (- BTW
+                 AvgSTR) (MIN STR AvgBTW))) (- BTW BTW)) AvgSTR))
+             (* (* (MIN (/ AvgSTR (MAX (- (* STR STR)
+                 BTW) AvgSTR)) STR) BTW) (MAX BTW STR))) (+
+             (/ (+ AvgSTR BTW) (* BTW BTW)) (/ (/ (- (/
+             AvgBTW AvgSTR) (* (/ AvgBTW AvgSTR) (MIN
+             AvgBTW AvgBTW))) (/ BTW BTW)) (/ BTW BTW))))
+             (MAX BTW BTW)) (* AvgBTW AvgBTW)) AvgSTR))
+         (MIN (/ AvgSTR AvgBTW) (/ BTW BTW))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11095.97398160383 Adjusted=9.011465663141722E-5 Hits=19
+Tree 0:
+ (MIN (MAX (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR
+     AvgBTW)) (MAX (/ (+ BTW AvgSTR) AvgBTW) (/
+     AvgSTR AvgBTW))) AvgBTW) (/ (+ AvgBTW (-
+     AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+ (+
+     STR AvgSTR) (/ STR BTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11095.97398160383 Adjusted=9.011465663141722E-5 Hits=19
+Tree 0:
+ (MIN (MAX (/ (MAX (MAX BTW STR) (MIN AvgSTR
+     AvgBTW)) (MAX (/ (+ BTW AvgSTR) AvgBTW) (/
+     AvgSTR AvgBTW))) AvgBTW) (/ (+ AvgBTW (-
+     AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+ (+
+     STR AvgSTR) (/ STR BTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11095.97398160383 Adjusted=9.011465663141722E-5 Hits=19
+Tree 0:
+ (MIN (MAX (/ (MAX BTW STR) (MAX (/ (+ BTW
+     AvgSTR) AvgBTW) (/ AvgSTR AvgBTW))) AvgBTW)
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (+ STR AvgSTR) (/ STR BTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11013.979730654011 Adjusted=9.078545984220574E-5 Hits=19
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (* (/ (MAX (- (* AvgBTW
+     AvgSTR) AvgBTW) (/ STR BTW)) (/ BTW AvgSTR))
+     (MAX STR STR))) (* (MIN (+ (MIN STR STR)
+     (* AvgBTW AvgBTW)) (/ (+ (- (/ (/ (MAX (-
+     AvgBTW AvgBTW) (MIN AvgBTW AvgBTW)) (* (/
+     AvgBTW AvgSTR) (MAX AvgBTW AvgBTW))) (+ (/
+     (+ AvgSTR BTW) (* BTW BTW)) (/ (* BTW AvgBTW)
+     (/ BTW BTW)))) (MAX BTW BTW)) (* AvgBTW AvgBTW))
+     AvgSTR)) (MIN (/ AvgSTR (MAX (+ STR BTW)
+     (/ (/ STR (MIN STR STR)) (MAX (MAX AvgBTW
+         (/ STR AvgBTW)) (/ (MIN BTW STR) BTW)))))
+     (/ BTW BTW))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10947.759296887458 Adjusted=9.133454968585187E-5 Hits=17
+Tree 0:
+ (/ (+ (MAX (/ (+ (/ (- (+ AvgBTW (- BTW AvgSTR))
+     (/ AvgBTW BTW)) (/ BTW BTW)) (MAX STR BTW))
+     BTW) (/ (/ (/ BTW STR) AvgSTR) STR)) (- AvgSTR
+     (- AvgBTW (+ (/ (MAX (+ (* STR AvgBTW) (/
+         AvgBTW STR)) (/ (+ (/ (+ (/ (MAX AvgBTW AvgBTW)
+         (* (- (- BTW AvgSTR) (* BTW BTW)) (MIN (/
+             AvgSTR AvgSTR) AvgSTR))) (MAX STR BTW)) BTW)
+         (* AvgBTW AvgBTW)) AvgSTR)) (+ (/ (+ AvgSTR
+         BTW) (* BTW BTW)) (MIN AvgBTW BTW))) (+ AvgBTW
+         AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10944.41508177242 Adjusted=9.136245565189359E-5 Hits=21
+Tree 0:
+ (MIN (MAX (/ (MAX (MAX AvgSTR (+ STR AvgSTR))
+     (+ (+ STR AvgSTR) (MIN (+ (/ AvgSTR AvgBTW)
+         (+ AvgSTR AvgSTR)) (MAX (/ (/ (MIN (MIN AvgSTR
+         STR) (* (* BTW AvgBTW) AvgSTR)) (MAX STR
+         AvgBTW)) AvgBTW) (/ AvgSTR AvgBTW))))) (+
+     STR AvgSTR)) AvgBTW) (/ (+ (/ (+ (- (/ (MAX
+     (MIN STR BTW) (* (* (MIN (/ AvgSTR (MAX (-
+     (* STR STR) BTW) AvgSTR)) STR) BTW) (MAX
+     BTW STR))) (+ (/ (+ AvgSTR BTW) (/ AvgBTW
+     AvgSTR)) (/ AvgBTW (/ BTW BTW)))) (MAX BTW
+     BTW)) (* AvgBTW AvgBTW)) AvgSTR) (- AvgSTR
+     (- (+ AvgBTW (- BTW AvgSTR)) (+ AvgSTR AvgSTR))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10944.41508177242 Adjusted=9.136245565189359E-5 Hits=21
+Tree 0:
+ (MIN (MAX (/ (MAX (MAX AvgSTR (+ STR AvgSTR))
+     (+ (+ STR AvgSTR) (MIN (+ (/ AvgSTR AvgBTW)
+         (+ AvgSTR AvgSTR)) (MAX (/ (/ (MIN (MIN AvgSTR
+         STR) (* (* BTW AvgBTW) AvgSTR)) (MAX STR
+         AvgBTW)) AvgBTW) (/ AvgBTW AvgSTR))))) (+
+     STR AvgSTR)) AvgBTW) (/ (+ (/ (+ (- (/ (MAX
+     (MIN STR BTW) (* (* (MIN (/ AvgSTR (MAX (-
+     (* STR STR) BTW) AvgSTR)) STR) BTW) (MAX
+     BTW STR))) (+ (/ (+ AvgSTR BTW) (/ AvgBTW
+     AvgSTR)) (/ AvgBTW (/ BTW BTW)))) (MAX BTW
+     BTW)) (* AvgBTW AvgBTW)) AvgSTR) (- AvgSTR
+     (- (+ AvgBTW (- BTW AvgSTR)) (+ AvgSTR AvgSTR))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10928.726296884 Adjusted=9.149359945867026E-5 Hits=18
+Tree 0:
+ (/ (+ (MAX AvgBTW AvgBTW) (- AvgSTR (- AvgBTW
+     (+ (/ (MAX (+ (* STR AvgBTW) (/ AvgBTW STR))
+         (/ (+ (/ (+ (/ (MAX AvgBTW AvgBTW) (/ AvgSTR
+             AvgBTW)) (MAX STR BTW)) BTW) (* AvgBTW AvgBTW))
+             AvgSTR)) (+ (/ (+ AvgSTR BTW) (* BTW BTW))
+         (MIN AvgBTW BTW))) (+ AvgBTW AvgSTR)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10795.501816596661 Adjusted=9.262259359441538E-5 Hits=21
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (* (/ (/ (+ AvgBTW (- AvgSTR
+     (* (MIN (MIN AvgBTW AvgBTW) (/ (+ (/ BTW
+         BTW) (* AvgBTW AvgBTW)) AvgSTR)) (MIN (/
+         AvgSTR AvgBTW) (/ BTW BTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))) (/ BTW AvgSTR)) (* (/ AvgBTW
+     AvgSTR) (MAX AvgBTW AvgBTW)))) (* (MIN (+
+     (MIN STR STR) (* AvgBTW AvgBTW)) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (/ (* AvgBTW AvgBTW)
+         AvgBTW)) (+ (+ STR AvgSTR) (/ STR BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (MIN (/ AvgSTR
+     (MAX (+ STR BTW) (/ (/ STR (MIN STR STR))
+         (MAX (MAX AvgBTW (/ STR AvgBTW)) (/ (MIN
+             BTW STR) BTW))))) (/ BTW BTW))))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10795.501816596661 Adjusted=9.262259359441538E-5 Hits=21
+Tree 0:
+ (+ (MIN (/ (+ AvgSTR AvgBTW) (/ (* AvgBTW
+     AvgBTW) AvgBTW)) (* (/ (/ (+ AvgBTW (- AvgSTR
+     (* (MIN (MIN AvgBTW AvgBTW) (/ (+ (/ BTW
+         (+ (/ (+ AvgSTR BTW) (* BTW BTW)) (/ (+ STR
+             AvgSTR) (* AvgBTW AvgBTW)))) (* AvgBTW AvgBTW))
+         AvgSTR)) (MIN (/ AvgSTR AvgBTW) (/ BTW BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))) (/ BTW AvgSTR))
+     (* (/ AvgBTW AvgSTR) (MAX AvgBTW AvgBTW))))
+     (* (MIN (+ (MIN STR STR) (* AvgBTW AvgBTW))
+         (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (/ (*
+             AvgBTW AvgBTW) AvgBTW)) (+ (+ STR AvgSTR)
+             (/ STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+         (MIN (/ AvgSTR (MAX (+ STR BTW) (/ (/ STR
+             (MIN STR STR)) (MAX (MAX AvgBTW (/ STR AvgBTW))
+             (/ (MIN BTW STR) BTW))))) (/ BTW BTW))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10787.270232774596 Adjusted=9.269326578064532E-5 Hits=18
+Tree 0:
+ (/ (+ (MAX (/ (+ (/ (- AvgSTR (/ AvgBTW BTW))
+     (/ BTW BTW)) (MAX STR BTW)) BTW) (/ (/ (/
+     BTW STR) AvgSTR) STR)) (- AvgSTR (- AvgBTW
+     (+ (/ (MAX (+ (* STR AvgBTW) (/ AvgBTW (+
+         STR AvgSTR))) (/ (+ (/ (+ (/ (+ (+ STR AvgSTR)
+         (/ STR BTW)) (* (- (- BTW AvgSTR) (* BTW
+         BTW)) (MIN (/ AvgSTR AvgSTR) AvgSTR))) (MAX
+         STR BTW)) BTW) (* AvgBTW AvgBTW)) AvgSTR))
+         (+ (/ (+ AvgSTR BTW) (* BTW BTW)) (MIN BTW
+             BTW))) (+ AvgBTW AvgSTR))))) (MAX BTW (MAX
+     AvgBTW AvgBTW)))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10787.270232774596 Adjusted=9.269326578064532E-5 Hits=18
+Tree 0:
+ (/ (+ (MAX (/ (+ (/ (- AvgSTR (/ AvgBTW BTW))
+     (/ BTW BTW)) (MAX STR BTW)) BTW) (/ (/ (/
+     BTW STR) AvgSTR) STR)) (- AvgSTR (- AvgBTW
+     (+ (/ (MAX (+ (* STR AvgBTW) (/ AvgBTW (+
+         STR AvgSTR))) (/ (+ (/ (+ (/ (+ (+ STR AvgSTR)
+         (/ STR BTW)) (* (- (- BTW AvgSTR) (* STR
+         STR)) (MIN (/ AvgSTR AvgSTR) AvgSTR))) (MAX
+         STR BTW)) BTW) (* AvgBTW AvgBTW)) AvgSTR))
+         (+ (/ (+ AvgSTR BTW) (* BTW BTW)) (MIN BTW
+             BTW))) (+ AvgBTW AvgSTR))))) (MAX BTW (MAX
+     AvgBTW AvgBTW)))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10695.225811881584 Adjusted=9.349092077779246E-5 Hits=26
+Tree 0:
+ (/ (+ (MAX (- (- AvgSTR AvgSTR) (- (MAX AvgBTW
+     AvgBTW) BTW)) (/ (/ (+ AvgSTR STR) (+ (+
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW AvgBTW)
+         (+ AvgSTR AvgSTR)))) (MAX BTW (MAX AvgBTW
+         AvgBTW))) (/ STR (MIN (MAX AvgBTW AvgBTW)
+     (MIN BTW AvgSTR)))) (/ (MAX (+ STR BTW) (/
+     STR BTW)) (MIN BTW AvgSTR)))) STR)) (- AvgSTR
+     (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX
+         (+ (MAX (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW
+             STR))) (+ AvgBTW (- BTW AvgSTR))) (MAX BTW
+         STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR))))))) (MAX BTW (MAX AvgBTW
+     AvgBTW)))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10650.963301961774 Adjusted=9.387940717143006E-5 Hits=21
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (- AvgSTR AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN (/ STR
+     BTW) AvgBTW) (* (/ BTW (MAX (MIN BTW (+ AvgBTW
+     AvgSTR)) (MIN (/ AvgBTW BTW) STR))) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10650.963301961774 Adjusted=9.387940717143006E-5 Hits=21
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (- AvgSTR AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN (/ STR
+     BTW) AvgBTW) (* (/ BTW (MAX (MIN BTW (+ AvgBTW
+     AvgSTR)) (MIN (/ AvgBTW BTW) STR))) (+ AvgBTW
+     (- BTW AvgSTR)))))) (/ (- AvgSTR (- (+ AvgBTW
+     (+ AvgBTW (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))
+     (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ STR BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10622.935995675207 Adjusted=9.412707309297422E-5 Hits=25
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (+ STR BTW) (/ (MAX (MAX AvgSTR
+         STR) (MIN AvgSTR AvgBTW)) (MIN (- AvgSTR
+         AvgBTW) (/ STR BTW))))))))) (/ (- AvgSTR
+     (- AvgBTW STR)) (MAX AvgBTW STR)))) (/ STR
+     (- AvgBTW (+ (+ (- AvgSTR AvgBTW) AvgSTR)
+         (+ AvgBTW AvgSTR))))) (/ (- AvgSTR (- AvgBTW
+     (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX (+ (MAX
+         (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW STR)))
+         (+ AvgBTW (- BTW AvgSTR))) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR))
+         (/ STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10622.935995675207 Adjusted=9.412707309297422E-5 Hits=25
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- AvgBTW STR)) (MAX AvgBTW
+         STR)))) (/ STR (- AvgBTW (+ (+ (- AvgSTR
+     AvgBTW) AvgSTR) (+ AvgBTW AvgSTR))))) (/
+     (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW)
+         (+ (MAX (+ (MAX (MIN AvgSTR AvgBTW) (MAX
+             BTW (/ BTW STR))) (+ AvgBTW (- BTW AvgSTR)))
+             (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+         (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10622.075660202356 Adjusted=9.413469620162259E-5 Hits=26
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (MAX (MIN STR STR) (+ (+ STR AvgSTR) (MIN
+         (+ (/ AvgSTR (MAX (- AvgSTR (- AvgBTW STR))
+             AvgBTW)) (+ AvgSTR AvgSTR)) (MAX (/ AvgBTW
+         STR) (MAX BTW STR))))) (MAX AvgBTW STR))))
+     (/ STR (- AvgBTW (+ (+ (- AvgSTR AvgBTW)
+         AvgSTR) (+ AvgBTW AvgSTR))))) (/ (- AvgSTR
+     (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX
+         (+ (MAX (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW
+             STR))) (+ AvgBTW (- BTW AvgSTR))) (MAX BTW
+         STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10585.69060797708 Adjusted=9.445822467377097E-5 Hits=26
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (MAX (MIN STR STR) (+ (MIN BTW STR) (-
+         AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW)
+         (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+             BTW STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))))) (MAX AvgBTW STR))))
+     (/ STR (- AvgBTW (+ (+ (- AvgSTR AvgBTW)
+         AvgSTR) (+ AvgBTW AvgSTR))))) (/ (- AvgSTR
+     (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX
+         (+ (MAX (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW
+             STR))) (+ AvgBTW (- BTW AvgSTR))) (MAX BTW
+         STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10585.69060797708 Adjusted=9.445822467377097E-5 Hits=26
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (MAX (MIN STR STR) (+ (MIN BTW STR) (-
+         AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW)
+         (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+             BTW STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))))) (MAX AvgBTW STR))))
+     (/ STR (- AvgBTW (+ (+ (- AvgSTR AvgBTW)
+         AvgSTR) (+ AvgBTW AvgSTR))))) (/ (- AvgSTR
+     (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX
+         (+ (MAX (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW
+             STR))) (+ AvgBTW (- BTW AvgSTR))) (MAX BTW
+         STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10585.690176002347 Adjusted=9.445822852800358E-5 Hits=26
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (MAX (MIN STR STR) (+ (MIN BTW STR) (-
+         AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW)
+         (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+             BTW STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (- AvgBTW STR)))))))) (MAX AvgBTW STR))))
+     (/ STR (- AvgBTW (+ (+ (- AvgSTR AvgBTW)
+         AvgSTR) (+ AvgBTW AvgSTR))))) (/ (- AvgSTR
+     (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX
+         (+ (MAX (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW
+             STR))) (+ AvgBTW (- BTW AvgSTR))) (MAX BTW
+         STR)) (/ (MAX STR AvgBTW) AvgSTR))) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10569.20678516742 Adjusted=9.460552856953035E-5 Hits=27
+Tree 0:
+ (MIN (+ (/ (MAX (+ (MIN (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (- AvgSTR (- AvgBTW STR)))
+     (+ (+ (MAX STR AvgSTR) (MAX STR AvgBTW))
+         (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (- AvgSTR
+     (/ (MAX BTW (MAX AvgBTW AvgBTW)) (* BTW BTW)))
+     (* (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW)) (MAX
+         (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR)) (+ (MAX
+         BTW BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (MAX AvgSTR (+ (MIN BTW STR) (- AvgSTR
+         (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) (+ (MAX
+             (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+             (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR))
+             (/ STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+         (MAX AvgBTW STR)))) (/ STR (- AvgBTW (+ (+
+     (- AvgSTR AvgBTW) AvgSTR) (+ AvgBTW AvgSTR)))))
+     (/ (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW
+         AvgBTW) (+ (MAX (+ (MAX (MIN AvgSTR AvgBTW)
+         (MAX BTW (/ BTW STR))) (+ AvgBTW (- BTW AvgSTR)))
+         (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+         (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.775053509564 Adjusted=9.478875093809066E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (+ (+ STR AvgSTR)
+             (/ STR (+ (* STR AvgBTW) (/ AvgBTW (+ STR
+                 AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.775053509564 Adjusted=9.478875093809066E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (+ (+ STR AvgSTR)
+             (/ STR (+ (* STR AvgBTW) (/ AvgBTW (+ STR
+                 AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.775053509564 Adjusted=9.478875093809066E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (+ (+ STR AvgSTR)
+             (/ STR (+ (* STR AvgBTW) (/ AvgBTW (+ STR
+                 AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.775053509473 Adjusted=9.478875093809147E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (+ (+ STR AvgSTR)
+             (/ STR (+ (* STR AvgBTW) (- AvgBTW STR)))))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.45538908413 Adjusted=9.479162318035233E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (MAX
+         (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW STR)))))))
+         (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (* STR
+         AvgBTW) (/ AvgBTW (+ STR AvgSTR)))))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.45538908413 Adjusted=9.479162318035233E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (MAX
+         (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW STR)))))))
+         (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (* STR
+         AvgBTW) (/ AvgBTW (+ STR AvgSTR)))))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10548.45538908413 Adjusted=9.479162318035233E-5 Hits=22
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* BTW BTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (MAX
+         (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW STR)))))))
+         (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (* STR
+         AvgBTW) (/ AvgBTW (+ STR AvgSTR)))))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10544.681475664924 Adjusted=9.482554563283434E-5 Hits=20
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (* BTW BTW)) (+ (MAX
+         BTW BTW) (/ AvgSTR AvgSTR)))))) (/ (- AvgSTR
+         (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR))) (+
+             AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX
+         BTW BTW) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (/ (MAX
+         STR AvgBTW) AvgSTR) (/ AvgBTW (+ STR AvgSTR))))))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10540.345062225113 Adjusted=9.486455420034563E-5 Hits=23
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (MAX
+         AvgBTW AvgBTW))))) (/ (- AvgSTR (- (+ AvgBTW
+         (+ AvgBTW (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     (* (MIN AvgBTW (+ (MAX (/ (+ (/ AvgSTR AvgBTW)
+         (/ STR BTW)) (MAX (MIN BTW (+ AvgBTW AvgSTR))
+         AvgSTR)) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (* STR
+         AvgBTW) (/ AvgBTW (+ STR AvgSTR)))))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX (MIN (+ AvgBTW AvgSTR) AvgSTR)
+             (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+             (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+             (MIN BTW AvgSTR)))))) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (+ (+ STR AvgSTR)
+             (/ STR (+ (* STR AvgBTW) (/ AvgBTW (+ STR
+                 AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10527.568545211072 Adjusted=9.497967322963869E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW) (MAX
+             BTW (/ BTW STR))) (+ AvgSTR AvgSTR))) (MAX
+         AvgBTW STR)))) (/ STR (MIN (- AvgSTR AvgSTR)
+     (MIN AvgSTR AvgBTW)))) (/ (+ AvgBTW (- AvgSTR
+     (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+         (- AvgBTW STR)) (/ BTW BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR)
+     (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX (MIN (/ AvgSTR
+             AvgSTR) AvgSTR) (MAX BTW STR)) (/ (MAX STR
+             AvgBTW) AvgSTR))) (MIN BTW AvgSTR))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10527.568545211072 Adjusted=9.497967322963869E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (MAX BTW STR)) (+ (MAX AvgBTW AvgBTW) (-
+     AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN STR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (MAX (MIN AvgSTR AvgBTW) (MAX BTW
+     (/ BTW STR))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (+ AvgBTW (- AvgSTR
+     (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+         (- AvgBTW STR)) (/ BTW BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR)
+     (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX (MIN (/ AvgSTR
+             AvgSTR) AvgSTR) (MAX BTW STR)) (/ (MAX STR
+             AvgBTW) AvgSTR))) (MIN BTW AvgSTR))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10527.568545211072 Adjusted=9.497967322963869E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgBTW) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (/
+         STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR (MIN
+         BTW AvgSTR))))))))))) (/ (- AvgSTR (- (MAX
+         (MIN AvgSTR AvgBTW) (MAX BTW (/ BTW STR)))
+         (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (/ (MAX (MAX AvgSTR
+     STR) (MIN AvgSTR (+ (- AvgSTR (/ (MAX BTW
+     (MAX AvgBTW AvgBTW)) (+ (/ (* AvgBTW AvgBTW)
+     AvgBTW) (* AvgBTW AvgBTW)))) (* (/ (+ (/
+     AvgSTR AvgBTW) (/ (MIN AvgSTR AvgBTW) BTW))
+     (MAX (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR))
+     (/ (+ (/ AvgSTR AvgBTW) (MAX AvgBTW STR))
+         (MAX (MIN BTW (+ AvgBTW AvgSTR)) AvgSTR))))))
+     (/ (MAX AvgSTR (+ (MIN BTW STR) (- AvgSTR
+         (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) STR)
+             (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+             (MIN BTW AvgSTR)))))))) (MAX AvgBTW STR))))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         BTW BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR)
+             (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+             (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10516.97492743056 Adjusted=9.50753359748016E-5 Hits=24
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (+ AvgBTW (-
+     AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+ (-
+     AvgSTR (- AvgBTW STR)) (/ STR BTW))))) (-
+     AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN STR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (- AvgBTW
+     STR))))) (/ (- AvgSTR (- (+ AvgBTW (+ (MIN
+     STR AvgBTW) (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))
+     (MAX AvgBTW STR)))) (/ (/ (- AvgSTR (MAX
+     STR AvgBTW)) (MAX BTW (MAX AvgBTW AvgBTW)))
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (+ AvgBTW
+         (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))) (MAX
+         BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW (*
+     (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX AvgSTR STR)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+     AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (* STR
+     AvgBTW) (- AvgBTW STR))))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10448.138291055242 Adjusted=9.570167148194683E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MIN
+     AvgSTR (+ (MIN STR AvgBTW) (* (/ BTW (- AvgBTW
+     STR)) (+ (MAX BTW BTW) (/ (MAX STR AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+         (MAX BTW (/ BTW STR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ BTW BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10448.138291055242 Adjusted=9.570167148194683E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MIN
+     AvgSTR (+ (MIN STR AvgBTW) (* (/ BTW (- AvgBTW
+     STR)) (+ (MAX BTW BTW) (/ (MAX STR AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+         (MAX BTW (/ BTW STR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ BTW BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 51
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10448.138291055242 Adjusted=9.570167148194683E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MIN
+     AvgSTR (+ (MIN STR AvgBTW) (* (/ BTW (- AvgBTW
+     STR)) (+ (MAX BTW BTW) (/ (MAX STR AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+         (MAX BTW (/ BTW STR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ BTW BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 52
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10448.136787716336 Adjusted=9.57016852507441E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MIN
+     AvgSTR (+ (MIN STR AvgBTW) (* (/ BTW (- AvgBTW
+     STR)) (+ (MAX BTW BTW) (/ (MAX STR AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+         (MAX BTW (/ BTW STR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ BTW BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (MAX BTW STR)) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR)
+             (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+             (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 53
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10447.632203518886 Adjusted=9.570630686600495E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MIN
+     AvgSTR (+ (MIN STR AvgBTW) (* (/ BTW (- AvgBTW
+     STR)) (+ (MAX BTW BTW) (/ (MAX STR AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+         (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW)))
+         (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         BTW BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ (MAX STR AvgBTW)
+             AvgSTR))) (MIN BTW AvgSTR))))) (MAX BTW (MAX
+         AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 54
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10447.632203518886 Adjusted=9.570630686600495E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MIN
+     AvgSTR (+ (MIN STR AvgBTW) (* (/ BTW (- AvgBTW
+     STR)) (+ (MAX BTW BTW) (/ (MAX STR AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+     (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+         (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW)))
+         (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         BTW BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ (MAX STR AvgBTW)
+             AvgSTR))) (MIN BTW AvgSTR))))) (MAX BTW (MAX
+         AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 55
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10445.479109773958 Adjusted=9.572603261747565E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+         (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MAX BTW (MAX AvgBTW AvgBTW)))))) (/ (+ AvgBTW
+         (* (MIN AvgBTW (+ (MAX (MAX BTW BTW) (* AvgBTW
+             AvgSTR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW))
+             AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+             AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (/ (MAX
+             STR AvgBTW) AvgSTR) (/ AvgBTW (+ STR AvgSTR))))))))
+             (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))
+
+Generation: 56
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10445.479109773958 Adjusted=9.572603261747565E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         STR BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+         (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MAX BTW (MAX AvgBTW AvgBTW)))))) (/ (+ AvgBTW
+         (* (MIN AvgBTW (+ (MAX (MAX BTW BTW) (* AvgBTW
+             AvgSTR)) (/ (+ (/ AvgSTR AvgBTW) AvgBTW)
+             AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+             AvgSTR) (+ (+ STR AvgSTR) (/ STR (+ (/ (MAX
+             STR AvgBTW) AvgSTR) (/ AvgBTW (+ STR AvgSTR))))))))
+             (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))
+
+Generation: 57
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10439.476666752602 Adjusted=9.578106746643775E-5 Hits=27
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX
+         (MAX BTW (/ BTW STR)) (MIN AvgSTR AvgBTW))
+         (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+         (/ (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW
+             AvgSTR))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+             STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (-
+     AvgBTW STR)))) (/ (+ AvgBTW (- AvgSTR (-
+     (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR (-
+     AvgBTW STR)) (MIN (/ AvgSTR AvgSTR) AvgSTR)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (+ (MIN STR AvgBTW)
+         (* (/ BTW (- AvgBTW STR)) (+ (MAX BTW BTW)
+             (/ (MAX BTW (MAX AvgBTW AvgBTW)) (/ (MAX
+                 (MAX BTW STR) (MIN AvgSTR AvgBTW)) (MIN (-
+                 AvgSTR AvgBTW) (- BTW AvgSTR))))))) AvgSTR)
+         (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (- AvgBTW STR))))) (/ (+ AvgBTW (* (MIN AvgBTW
+         (+ (MIN (* AvgBTW AvgBTW) (- AvgSTR (- AvgBTW
+             STR))) (+ (MAX AvgBTW AvgBTW) (- AvgBTW STR))))
+         (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+             (+ (+ STR AvgSTR) (/ STR (+ (/ (MAX STR AvgBTW)
+                 AvgSTR) (/ AvgBTW (+ STR AvgSTR)))))))) (MAX
+             BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+         AvgBTW AvgBTW))))) (/ (MAX (MAX AvgSTR (+
+     (/ AvgSTR AvgBTW) (MAX AvgBTW STR))) (MIN
+     AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW) (/
+     STR BTW)))))
+
+Generation: 58
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10436.287601002407 Adjusted=9.581033293592093E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX AvgBTW (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW (- BTW AvgSTR)) (/ (MAX STR AvgSTR)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+         (/ (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW
+             AvgSTR))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+             STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (-
+     AvgBTW (MAX AvgBTW AvgBTW))))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ STR BTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR (+
+         AvgBTW (MAX BTW STR))) AvgSTR) (MAX BTW STR))
+         (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/ (MAX (MAX
+             AvgSTR STR) (MIN AvgSTR AvgBTW)) (- AvgBTW
+             STR))))) (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX
+         (MAX BTW BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR
+         AvgBTW) (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (- AvgSTR (-
+             (- BTW AvgSTR) (+ AvgSTR AvgSTR)))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+         AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 59
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10406.541334818596 Adjusted=9.608417279636296E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX BTW
+     (/ BTW STR)))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (MAX AvgSTR (+ (MIN
+     BTW STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW
+         AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 60
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10406.541334818596 Adjusted=9.608417279636296E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX BTW
+     (/ BTW STR)))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (MAX AvgSTR (+ (MIN
+     BTW STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW
+         AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 61
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10389.223117615891 Adjusted=9.624432398420497E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX AvgBTW (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW (- BTW AvgSTR)) (/ (MAX STR AvgSTR)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+         (/ (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW
+             AvgSTR))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+             STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (-
+     AvgBTW (MAX AvgBTW AvgBTW))))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ STR BTW)))))
+     (MIN STR AvgBTW))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MIN (/ AvgSTR (+ AvgBTW (MAX BTW
+         STR))) AvgSTR) (MAX BTW STR)) (/ (/ (* AvgBTW
+         AvgBTW) AvgBTW) (/ (MAX (MAX AvgSTR STR)
+         (MIN AvgSTR AvgBTW)) (- AvgBTW STR))))) (/
+     (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+         BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+         (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (- AvgSTR (- (- BTW AvgSTR)
+             (+ AvgSTR AvgSTR)))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 62
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10389.223117615891 Adjusted=9.624432398420497E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX AvgBTW (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         STR AvgBTW) (* (/ BTW (- AvgBTW STR)) (+
+         (MAX BTW (- BTW AvgSTR)) (/ (MAX STR AvgSTR)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))))
+         (/ (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW
+             AvgSTR))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+             STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (-
+     AvgBTW (MAX AvgBTW AvgBTW))))) (/ (+ AvgBTW
+     (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR)) (+
+         (- AvgSTR (- AvgBTW STR)) (/ STR BTW)))))
+     (MIN STR AvgBTW))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MIN (/ AvgSTR (+ AvgBTW (MAX BTW
+         STR))) AvgSTR) (MAX BTW STR)) (/ (/ (* AvgBTW
+         AvgBTW) AvgBTW) (/ (MAX (MAX AvgSTR STR)
+         (MIN AvgSTR AvgBTW)) (- AvgBTW STR))))) (/
+     (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+         BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+         (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (- AvgSTR (- (- BTW AvgSTR)
+             (+ AvgSTR AvgSTR)))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 63
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10368.114853042032 Adjusted=9.644024723157788E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+             (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+         AvgBTW)))) (/ (+ AvgBTW (* (MIN AvgBTW (+
+     (MAX (MIN (/ AvgSTR (+ AvgBTW (+ (MAX BTW
+         BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/ (MAX
+         BTW STR) (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         AvgSTR) (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW)
+     AvgBTW) (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR
+     AvgBTW)) (+ (+ (- AvgSTR (- AvgBTW STR))
+     (MIN AvgBTW (MAX BTW STR))) AvgSTR))))) (/
+     (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+         BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+         (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (+ (+ STR AvgSTR) (/ STR
+             (+ (/ (MAX STR AvgBTW) AvgSTR) (/ AvgBTW
+                 (+ STR AvgSTR)))))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 64
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10368.114853042032 Adjusted=9.644024723157788E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX (MAX (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (- (+ AvgBTW (+
+         AvgBTW (- BTW AvgSTR))) (+ AvgSTR AvgSTR))
+         AvgSTR)) (MIN (/ STR (MIN (- AvgSTR AvgSTR)
+         (- AvgBTW STR))) (/ (+ AvgBTW (- AvgSTR (-
+         (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR (-
+         AvgBTW STR)) (/ BTW BTW))))) (MAX BTW (MAX
+         AvgBTW AvgBTW))))) STR) (MIN AvgSTR (+ (MIN
+     AvgSTR AvgBTW) (* (/ BTW (- AvgBTW STR))
+     (+ (MAX BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX
+         (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+         (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+     (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+         (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+             (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+         AvgBTW)))) (/ (+ AvgBTW (* (MIN AvgBTW (+
+     (MAX (MIN (/ AvgSTR (+ AvgBTW (+ (MAX BTW
+         BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/ (MAX
+         BTW STR) (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         AvgSTR) (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW)
+     AvgBTW) (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR
+     AvgBTW)) (+ (+ (- AvgSTR (- AvgBTW STR))
+     (MIN AvgBTW (MAX BTW STR))) AvgSTR))))) (/
+     (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+         BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+         (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (+ (+ STR AvgSTR) (/ STR
+             (+ (/ (MAX STR AvgBTW) AvgSTR) (/ AvgBTW
+                 (+ STR AvgSTR)))))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 65
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10368.114853042032 Adjusted=9.644024723157788E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+             (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+         AvgBTW)))) (/ (+ AvgBTW (* (MIN AvgBTW (+
+     (MAX (MIN (/ AvgSTR (+ AvgBTW (+ (MAX BTW
+         BTW) (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/ (MAX
+         BTW STR) (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         AvgSTR) (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW)
+     AvgBTW) (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR
+     AvgBTW)) (+ (+ (- AvgSTR (- AvgBTW STR))
+     (MIN AvgBTW (MAX BTW STR))) AvgSTR))))) (/
+     (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+         BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+         (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (+ (+ STR AvgSTR) (/ STR
+             (+ (/ (MAX STR AvgBTW) AvgSTR) (/ AvgBTW
+                 (+ STR AvgSTR)))))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 66
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10353.158021405256 Adjusted=9.657955750073447E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ AvgBTW (- AvgSTR (- (+ AvgSTR AvgSTR)
+         (/ AvgSTR (MIN BTW AvgSTR)))))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX BTW
+     (/ BTW STR)))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (MAX AvgSTR (+ (MIN
+     BTW STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MIN STR AvgBTW))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+         BTW STR)) (/ (MAX STR AvgBTW) AvgSTR))) (/
+     (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR) (/
+         (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR) (/
+             (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 67
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10353.156518713517 Adjusted=9.65795715172604E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ AvgBTW (- AvgSTR (- (+ AvgSTR AvgSTR)
+         (/ AvgSTR (MIN BTW AvgSTR)))))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX BTW
+     (/ BTW STR)))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (MAX AvgSTR (+ (MIN
+     BTW STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MIN STR AvgBTW))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+         BTW STR)) (/ (/ STR (MIN (/ (MAX (MAX AvgSTR
+         STR) (MAX BTW BTW)) (/ (- AvgSTR (- (+ AvgBTW
+         (+ AvgBTW (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR))) (- AvgBTW STR))) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+             (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 68
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10352.713353114836 Adjusted=9.658370537167301E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ AvgBTW (- AvgSTR (- (+ AvgSTR AvgSTR)
+         (/ AvgSTR (MIN BTW AvgSTR)))))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW
+     AvgBTW))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (MAX AvgSTR (+ (MIN
+     BTW STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MIN STR AvgBTW))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+         BTW STR)) (/ (/ STR (MIN (/ (MAX (MAX AvgSTR
+         STR) (MAX BTW BTW)) (/ (- AvgSTR (- (+ AvgBTW
+         (+ AvgBTW (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR))) (- AvgBTW STR))) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+             (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 69
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10352.713353114836 Adjusted=9.658370537167301E-5 Hits=29
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ AvgBTW (- AvgSTR (- (+ AvgSTR AvgSTR)
+         (/ AvgSTR (MIN BTW AvgSTR)))))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW
+     AvgBTW))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+     AvgSTR AvgBTW)))) (/ (MAX AvgSTR (+ (MIN
+     BTW STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MIN STR AvgBTW))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+         BTW STR)) (/ (/ STR (MIN (/ (MAX (MAX AvgSTR
+         STR) (MAX BTW BTW)) (/ (- AvgSTR (- (+ AvgBTW
+         (+ AvgBTW (- BTW AvgSTR))) (+ AvgSTR AvgSTR)))
+         (MAX AvgBTW STR))) (- AvgBTW STR))) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+             (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 70
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10329.817158391685 Adjusted=9.679776388140832E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MAX BTW (/ BTW
+     STR))))) (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+     AvgBTW)))) (/ (+ AvgBTW (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ STR BTW) AvgSTR) (MAX
+     BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (- AvgBTW STR))))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (- AvgSTR (- (- BTW AvgSTR) (+ AvgSTR AvgSTR))))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 71
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10329.817158391685 Adjusted=9.679776388140832E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MAX BTW (/ BTW
+     STR))))) (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+     AvgBTW)))) (/ (+ AvgBTW (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ STR BTW) AvgSTR) (MAX
+     BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (- AvgBTW STR))))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (- AvgSTR (- (- BTW AvgSTR) (+ AvgSTR AvgSTR))))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 72
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10329.817158391685 Adjusted=9.679776388140832E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MAX BTW (/ BTW
+     STR))))) (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+     AvgBTW)))) (/ (+ AvgBTW (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ STR BTW) AvgSTR) (MAX
+     BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+         (- AvgBTW STR))))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (- AvgSTR (- (- BTW AvgSTR) (+ AvgSTR AvgSTR))))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 73
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10329.459450373712 Adjusted=9.680111565258836E-5 Hits=34
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW (MAX AvgSTR STR)))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         AvgSTR AvgBTW) (* (/ BTW (- AvgBTW STR))
+         (+ (MAX BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX
+             (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+             (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) AvgBTW))) (/ (+
+     AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+     (+ (- AvgSTR (- AvgBTW STR)) (/ (+ (* (MIN
+         AvgSTR AvgBTW) AvgBTW) (/ AvgBTW (+ STR AvgSTR)))
+         BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (- AvgSTR
+         (- (- BTW AvgSTR) (+ (+ STR AvgSTR) (/ STR
+             (+ (/ (MAX STR AvgBTW) AvgSTR) (/ AvgBTW
+                 (+ STR AvgSTR))))))) (/ (/ (* AvgBTW AvgBTW)
+         AvgBTW) (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR
+         AvgBTW)) (+ (+ (- AvgSTR (- AvgBTW STR))
+         (MIN AvgBTW (MAX BTW STR))) AvgSTR))))) (/
+         (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+             BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+             (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+             (- (- (MAX (MIN AvgSTR AvgBTW) (MAX BTW (MAX
+                 BTW BTW))) (+ AvgSTR AvgSTR)) (+ (+ STR AvgSTR)
+                 (/ STR (+ (/ (MAX STR AvgBTW) AvgSTR) (MAX
+                     AvgSTR STR))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))
+
+Generation: 74
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10329.459450373712 Adjusted=9.680111565258836E-5 Hits=34
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW (MAX AvgSTR STR)))) (* AvgBTW AvgBTW))
+     (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN
+         AvgSTR AvgBTW) (* (/ BTW (- AvgBTW STR))
+         (+ (MAX BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX
+             (MAX AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN
+             (- AvgSTR AvgBTW) (/ STR BTW))))))))) (/
+         (- AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+             (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) AvgBTW))) (/ (+
+     AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+     (+ (- AvgSTR (- AvgBTW STR)) (/ (+ (* (MIN
+         AvgSTR AvgBTW) AvgBTW) (/ AvgBTW (+ STR AvgSTR)))
+         BTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (- AvgSTR
+         (- (- BTW AvgSTR) (+ (+ STR AvgSTR) (/ STR
+             (+ (/ (MAX STR AvgBTW) AvgSTR) (/ AvgBTW
+                 (+ STR AvgSTR))))))) (/ (/ (* AvgBTW AvgBTW)
+         AvgBTW) (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR
+         AvgBTW)) (+ (+ (- AvgSTR (- AvgBTW STR))
+         (MIN AvgBTW (MAX BTW STR))) AvgSTR))))) (/
+         (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW
+             BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+             (/ STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+             (- (- (MAX (MIN AvgSTR AvgBTW) (MAX BTW (MAX
+                 BTW BTW))) (+ AvgSTR AvgSTR)) (+ (+ STR AvgSTR)
+                 (/ STR (+ (/ (MAX STR AvgBTW) AvgSTR) (MAX
+                     AvgSTR STR))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))
+
+Generation: 75
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10323.955451583763 Adjusted=9.685271812447464E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     AvgBTW (MAX BTW STR))) (MIN (MAX (/ (MAX
+     (- AvgBTW STR) BTW) STR) (- (+ AvgBTW (-
+     BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (MAX (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (+ (+ (/ STR (MAX (/ (+ AvgSTR
+     AvgBTW) (MAX STR STR)) (- AvgBTW STR))) (MAX
+     STR BTW)) (- BTW AvgSTR))))) (- AvgSTR (-
+     AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (- AvgBTW
+     STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (- AvgBTW
+         STR)) (/ (MAX (+ AvgBTW (- BTW AvgSTR)) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+         AvgBTW STR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (MAX AvgSTR (+ (MIN (/ (+ AvgBTW (- AvgSTR
+         (- (+ AvgBTW (- BTW AvgSTR)) (MAX BTW (MAX
+             AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))
+         STR) (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW
+         AvgBTW) STR) (MIN BTW AvgSTR)) (/ STR (MIN
+         (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+         (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW
+         AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 76
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10323.955451583763 Adjusted=9.685271812447464E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     AvgBTW (MAX BTW STR))) (MIN (MAX (/ (MAX
+     (- AvgBTW STR) BTW) STR) (- (+ AvgBTW (-
+     BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (MAX (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (+ (+ (/ STR (MAX (/ (+ AvgSTR
+     AvgBTW) (MAX STR STR)) (- AvgBTW STR))) (MAX
+     STR BTW)) (- BTW AvgSTR))))) (- AvgSTR (-
+     AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (- AvgBTW
+     STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (- AvgBTW
+         STR)) (/ (MAX (+ AvgBTW (- BTW AvgSTR)) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+         AvgBTW STR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (MAX AvgSTR (+ (MIN (/ (+ AvgBTW (- AvgSTR
+         (- (+ AvgBTW (- BTW AvgSTR)) (MAX BTW (MAX
+             AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))
+         STR) (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW
+         AvgBTW) STR) (MIN BTW AvgSTR)) (/ STR (MIN
+         (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+         (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW
+         AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 77
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10295.963363597628 Adjusted=9.71160102924376E-5 Hits=35
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ AvgBTW (- AvgSTR AvgSTR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX
+     BTW BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR
+     AvgBTW) (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW
+     AvgBTW))) (+ AvgSTR AvgSTR))) (MAX AvgBTW
+     STR)))) (/ STR (MIN (- AvgSTR AvgSTR) AvgBTW)))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+             (+ STR AvgSTR))) BTW))))) (MAX BTW (MAX AvgBTW
+         AvgBTW)))) (/ (+ AvgBTW (* (MIN AvgBTW (+
+     (- AvgSTR (- (- BTW AvgSTR) (+ STR (/ STR
+         (+ (- BTW AvgSTR) (/ AvgBTW (+ STR AvgSTR)))))))
+     (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/ (MAX (MAX
+         AvgSTR STR) (MIN AvgSTR AvgBTW)) (+ (+ (-
+         AvgSTR (- AvgBTW STR)) (MIN AvgBTW (MAX BTW
+         STR))) AvgSTR))))) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- (MAX (MIN AvgSTR
+         AvgBTW) (MAX BTW (MAX BTW BTW))) (+ AvgSTR
+         AvgSTR)) (+ (+ STR AvgSTR) (/ STR (+ (/ (MAX
+         STR AvgBTW) AvgSTR) (MAX AvgSTR STR)))))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 78
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10283.346637220104 Adjusted=9.723515117439718E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (+ STR AvgSTR)))) (+ (MAX AvgBTW AvgBTW)
+     (- BTW AvgSTR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MAX AvgBTW STR))))
+     (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW
+         AvgSTR)) (+ (- AvgSTR (- AvgBTW STR)) (/
+         (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+             (+ STR AvgSTR))) BTW))))) (MAX (/ (+ AvgBTW
+         (* (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+             BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+             BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR (-
+             (- BTW AvgSTR) (- AvgSTR (- (- BTW AvgSTR)
+             (+ AvgSTR AvgSTR)))))) (MAX BTW (MAX AvgBTW
+             AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW)))
+         (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ STR BTW) AvgSTR)
+         (MAX BTW STR)) (/ (/ (* AvgBTW AvgBTW) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (- AvgBTW STR))))) (/ (+ AvgBTW (* (MIN AvgBTW
+         (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+             (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+         (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+             (- AvgSTR (- (- BTW AvgSTR) (+ AvgSTR AvgSTR))))))
+             (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 79
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10283.346546559105 Adjusted=9.723515203156743E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (* AvgBTW AvgBTW)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MAX BTW (/ BTW
+     STR))))) (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         BTW)) BTW))))) (MAX AvgBTW AvgBTW))) (/ (+
+     AvgBTW (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+     (/ STR BTW) AvgSTR) (MAX BTW STR)) (/ (/
+     (* AvgBTW AvgBTW) AvgBTW) (/ (MAX (MAX AvgSTR
+     STR) AvgSTR) (- AvgBTW STR))))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR (-
+         (- BTW AvgSTR) (- AvgSTR (- (- BTW AvgSTR)
+         (+ AvgSTR AvgSTR)))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 80
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10283.344874360431 Adjusted=9.723516784166464E-5 Hits=31
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         (* AvgBTW AvgBTW)))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* AvgBTW AvgBTW)) (/ (MAX
+     (MAX AvgSTR STR) (MIN AvgSTR (+ (MIN AvgSTR
+     AvgBTW) (* (/ BTW (- AvgBTW STR)) (+ (MAX
+     BTW BTW) (/ (MAX STR AvgSTR) (/ (MAX (MAX
+     AvgSTR STR) (MIN AvgSTR AvgBTW)) (MIN (-
+     AvgSTR AvgBTW) (/ STR BTW))))))))) (/ (-
+     AvgSTR (- (+ AvgBTW (+ AvgBTW (- BTW AvgSTR)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) (MAX BTW (/ BTW
+     STR))))) (/ (+ AvgBTW (- AvgSTR (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ (+ (* (MIN AvgSTR AvgBTW) AvgBTW) (/ AvgBTW
+         BTW)) BTW))))) (MAX AvgBTW AvgBTW))) (/ (+
+     AvgBTW (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+     (/ STR BTW) AvgSTR) (MAX BTW STR)) (/ (/
+     (* AvgBTW AvgBTW) AvgBTW) (/ (MAX (MAX AvgSTR
+     STR) AvgSTR) (- AvgBTW STR))))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ AvgBTW AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (- AvgSTR (-
+             (- BTW AvgSTR) (+ AvgSTR AvgSTR)))))) (MAX
+         BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW)))))) (MAX BTW (MAX AvgBTW
+     AvgBTW))))
+
+Generation: 81
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10282.078400960703 Adjusted=9.724714341442484E-5 Hits=34
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (* AvgBTW AvgBTW)
+     (+ AvgBTW (- AvgSTR AvgSTR))) (+ (MAX AvgBTW
+     AvgBTW) AvgBTW)) (* (MAX BTW (/ BTW STR))
+     AvgBTW)) (/ (MAX (MAX AvgSTR STR) (MAX BTW
+     BTW)) (/ (- AvgSTR (- (MAX (MIN AvgSTR AvgBTW)
+     (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW AvgBTW)))
+     (+ AvgSTR AvgSTR))) (MAX AvgBTW STR)))) (/
+     STR (MIN (- AvgSTR AvgSTR) AvgBTW))) (/ (+
+     AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+     (+ (- AvgSTR (- AvgBTW STR)) (/ (+ (* (MIN
+         AvgSTR AvgBTW) AvgBTW) (/ AvgBTW (+ STR AvgSTR)))
+         BTW))))) AvgBTW)) (/ (+ AvgBTW (* (MIN AvgBTW
+     (+ (- AvgSTR (- (- BTW AvgSTR) (+ STR (/
+         STR (+ (- BTW AvgSTR) (/ AvgBTW (+ STR AvgSTR)))))))
+         (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/ (MAX AvgBTW
+             AvgBTW) (+ (+ (- AvgSTR (- AvgBTW STR)) (MIN
+             AvgBTW (MAX BTW STR))) AvgSTR))))) (/ (+
+     AvgBTW (* (MIN AvgBTW (+ (MAX (MAX BTW BTW)
+     (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/
+     STR BTW)) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+     (- (- (MAX (MIN AvgSTR AvgBTW) (MAX BTW (MAX
+         BTW BTW))) (+ AvgSTR AvgSTR)) (+ (+ STR AvgSTR)
+         (/ STR (+ (/ (MAX STR AvgBTW) AvgSTR) (MAX
+             AvgSTR STR))))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 82
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10278.500625943301 Adjusted=9.728099023372887E-5 Hits=24
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     AvgBTW (MAX BTW STR))) (MIN (MAX (/ (MAX
+     (- AvgBTW STR) BTW) STR) (- (+ AvgBTW (-
+     BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (MAX (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (+ (- (MAX (MIN AvgSTR AvgBTW)
+     (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW AvgBTW)))
+     (+ AvgSTR AvgSTR)) (- BTW AvgSTR))))) (-
+     AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* (MAX BTW (/ BTW STR))
+     AvgBTW)) (/ (MAX (+ (MAX (MIN (/ AvgSTR (+
+     AvgBTW (+ AvgBTW STR))) AvgSTR) (MAX BTW
+     STR)) (* (/ BTW (- AvgBTW STR)) (+ (+ (MIN
+     (/ STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR)))
+     (MAX (MAX AvgSTR STR) (MAX BTW BTW))) AvgSTR)
+     (/ (MAX (+ AvgBTW (- BTW AvgSTR)) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+     (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+     AvgBTW STR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (MAX AvgSTR (+ (MIN (/ (+ AvgBTW (- (*
+         (+ AvgBTW AvgBTW) (+ (MAX BTW STR) (/ (MAX
+         STR AvgBTW) AvgSTR))) (- (+ AvgBTW (- BTW
+         AvgSTR)) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX (/ STR (MIN (- AvgSTR AvgSTR) AvgBTW))
+             (MAX AvgBTW AvgBTW))) STR) (- AvgSTR (- AvgBTW
+         (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+             AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+             BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ (MAX STR AvgBTW)
+             AvgSTR))) (MIN BTW AvgSTR))))) (MAX BTW (MAX
+         AvgBTW AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 83
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10278.500625943301 Adjusted=9.728099023372887E-5 Hits=24
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     AvgBTW (MAX BTW STR))) (MIN (MAX (/ (MAX
+     (- AvgBTW STR) BTW) STR) (- (+ AvgBTW (-
+     BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (MAX (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (+ (- (MAX (MIN AvgSTR AvgBTW)
+     (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW AvgBTW)))
+     (+ AvgSTR AvgSTR)) (- BTW AvgSTR))))) (-
+     AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* (MAX BTW (/ BTW STR))
+     AvgBTW)) (/ (MAX (+ (MAX (MIN (/ AvgSTR (+
+     AvgBTW (+ AvgBTW STR))) AvgSTR) (MAX BTW
+     STR)) (* (/ BTW (- AvgBTW STR)) (+ (+ (MIN
+     (/ STR (MIN (- AvgSTR AvgSTR) (- AvgBTW STR)))
+     (MAX (MAX AvgSTR STR) (MAX BTW BTW))) AvgSTR)
+     (/ (MAX (+ AvgBTW (- BTW AvgSTR)) AvgBTW)
+         (/ (MAX (MAX AvgSTR STR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+     (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+     AvgBTW STR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (MAX AvgSTR (+ (MIN (/ (+ AvgBTW (- (*
+         (+ AvgBTW AvgBTW) (+ (MAX BTW STR) (/ (MAX
+         STR AvgBTW) AvgSTR))) (- (+ AvgBTW (- BTW
+         AvgSTR)) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX (/ STR (MIN (- AvgSTR AvgSTR) AvgBTW))
+             (MAX AvgBTW AvgBTW))) STR) (- AvgSTR (- AvgBTW
+         (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+             AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+             BTW AvgSTR)))))))) (MAX (MIN AvgSTR AvgBTW)
+         (MAX BTW (MAX BTW BTW))))) (/ (+ AvgBTW (*
+     (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+     AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+     STR) (/ (MAX STR AvgBTW) AvgSTR))) (MIN BTW
+     AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 84
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10269.91128880548 Adjusted=9.73623441855568E-5 Hits=25
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (MAX (/ (+
+     AvgSTR AvgBTW) (MAX STR STR)) (+ (+ (/ STR
+     (MAX (/ (+ AvgSTR AvgBTW) (MAX STR STR))
+         (- AvgBTW STR))) (MAX STR BTW)) (- BTW AvgSTR)))))
+     (- AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW
+     AvgBTW) (- AvgBTW STR))) (* (MAX BTW (/ BTW
+     STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN (/ AvgSTR
+     (+ AvgBTW (+ AvgBTW STR))) AvgSTR) (MAX BTW
+     STR)) (* (/ BTW (- AvgBTW STR)) (+ (- AvgSTR
+     (MAX BTW STR)) (/ (MAX (+ AvgBTW (- BTW AvgSTR))
+     AvgBTW) (/ (MAX (+ STR AvgSTR) (MIN AvgSTR
+     AvgBTW)) (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+     (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+     AvgBTW STR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (MAX AvgSTR (+ (MIN AvgSTR STR) (- AvgSTR
+         (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) STR)
+             (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+             (MIN BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW
+         AvgBTW)))) (/ (+ AvgBTW (* (MIN AvgBTW (+
+     (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+         BTW STR)) (/ (MAX STR AvgBTW) AvgSTR))) (/
+     (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR) (/
+         (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR) (/
+             AvgBTW AvgSTR))) (MIN BTW AvgSTR))))) (MAX
+     BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 85
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10268.849059601012 Adjusted=9.737241455025342E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (MAX AvgBTW AvgBTW) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN AvgBTW (MAX
+     BTW STR))) (MIN (MAX (/ (MAX (- AvgBTW STR)
+     BTW) STR) (- (+ AvgBTW (- BTW AvgSTR)) (+
+     (- AvgSTR (- AvgBTW STR)) (/ STR BTW))))
+     (MAX (/ (+ AvgSTR AvgBTW) (MAX STR STR))
+         (+ (- (MAX (MIN AvgSTR AvgBTW) (MAX (MIN
+             AvgSTR AvgBTW) (MAX AvgBTW AvgBTW))) (+ AvgSTR
+             AvgSTR)) (- BTW AvgSTR))))) (- AvgSTR (-
+     AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (- AvgBTW
+     STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (MAX
+         (- AvgBTW STR) BTW)) (- BTW AvgSTR)))) (MAX
+         BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX AvgBTW
+         STR))) (MAX AvgBTW STR)))) (/ STR (MIN (-
+     AvgSTR AvgSTR) (MIN AvgSTR AvgBTW)))) (/
+     (MAX AvgSTR (+ (MIN (/ (+ AvgBTW (- (* (+
+         AvgBTW AvgBTW) (+ (MAX BTW STR) (/ (MAX STR
+         AvgBTW) AvgSTR))) (- (+ AvgBTW (- BTW AvgSTR))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX (/
+         STR (MIN (- AvgSTR AvgSTR) AvgBTW)) (MAX
+         AvgBTW AvgBTW))) STR) (- AvgSTR (- AvgBTW
+         (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+             AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+             BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ (/ (+ (/ AvgSTR
+             AvgBTW) (/ STR BTW)) AvgSTR) AvgSTR))) (MIN
+             BTW AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 86
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10268.849059601012 Adjusted=9.737241455025342E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (MAX AvgBTW AvgBTW) (- AvgBTW STR)) (- AvgBTW
+     STR)) (MIN AvgBTW (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (MAX (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR)) (+ (- (MAX (MIN AvgSTR AvgBTW)
+     (MAX (MIN AvgSTR AvgBTW) (MAX AvgBTW AvgBTW)))
+     (+ AvgSTR AvgSTR)) (- BTW AvgSTR))))) (-
+     AvgSTR (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW)
+     (- AvgBTW STR))) (* (MAX BTW (/ BTW STR))
+     AvgBTW)) (/ (MAX (+ (MAX (MIN (/ AvgSTR (+
+     AvgBTW (+ AvgBTW STR))) AvgSTR) (MAX BTW
+     STR)) (* (/ BTW (- AvgBTW STR)) (+ (- AvgSTR
+     (MAX (- AvgBTW STR) BTW)) (- BTW AvgSTR))))
+     (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+     AvgBTW STR))) (MAX AvgBTW STR)))) (/ STR
+     (MIN (- AvgSTR AvgSTR) (MIN AvgSTR AvgBTW))))
+     (/ (MAX AvgSTR (+ (MIN (/ (+ AvgBTW (- (*
+         (+ AvgBTW AvgBTW) (+ (MAX BTW STR) (/ (MAX
+         STR AvgBTW) AvgSTR))) (- (+ AvgBTW (- BTW
+         AvgSTR)) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX (/ STR (MIN (- AvgSTR AvgSTR) AvgBTW))
+             (MAX AvgBTW AvgBTW))) STR) (- AvgSTR (- AvgBTW
+         (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+             AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+             BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ (/ (+ (/ AvgSTR
+             AvgBTW) (/ STR BTW)) AvgSTR) AvgSTR))) (MIN
+             BTW AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 87
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10238.83014086623 Adjusted=9.765786992980391E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (- AvgSTR (MAX BTW STR)) (/ (MAX (+ AvgBTW
+         (- BTW AvgSTR)) AvgBTW) (/ (MAX (+ STR AvgSTR)
+         (MIN AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW)
+         (/ STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (MAX AvgSTR
+     (+ (MIN AvgSTR STR) (- AvgSTR (- AvgBTW (+
+         (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW AvgSTR))
+         (/ STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 88
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10238.83014086623 Adjusted=9.765786992980391E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (- AvgSTR (MAX BTW STR)) (/ (MAX (+ AvgBTW
+         (- BTW AvgSTR)) AvgBTW) (/ (MAX (+ STR AvgSTR)
+         (MIN AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW)
+         (/ STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (MAX AvgSTR
+     (+ (MIN AvgSTR STR) (- AvgSTR (- AvgBTW (+
+         (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW AvgSTR))
+         (/ STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 89
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10238.83013996925 Adjusted=9.765786993835847E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgBTW STR)) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN (+ (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (MIN STR AvgBTW)) (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (- AvgSTR AvgSTR))) (- AvgSTR
+     (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (-
+     AvgBTW STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (MAX
+         BTW STR)) (/ (MAX (+ AvgBTW BTW) AvgBTW)
+         (/ (MAX (+ STR AvgSTR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+         AvgBTW (MAX AvgSTR STR)))) (MAX AvgBTW STR))))
+     (/ STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR
+         AvgBTW)))) (/ (MAX AvgSTR (+ (MIN AvgSTR
+     STR) (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW
+     AvgBTW) STR) (MIN BTW AvgSTR)) (/ STR (MIN
+     (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 90
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10238.31602605147 Adjusted=9.76627733195988E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgBTW STR)) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN (+ (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (MIN STR AvgBTW)) (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (- AvgSTR AvgSTR))) (- AvgSTR
+     (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (-
+     AvgBTW STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (MAX
+         BTW STR)) (/ (MAX (+ AvgBTW BTW) AvgBTW)
+         (/ (MAX (+ STR AvgSTR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+         AvgBTW (MAX AvgSTR STR)))) (MAX AvgBTW STR))))
+     (/ STR (MIN (- AvgSTR AvgSTR) (MIN AvgSTR
+         AvgBTW)))) (/ (MAX AvgSTR (+ (MIN (MAX AvgBTW
+     STR) STR) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 91
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10238.31602605147 Adjusted=9.76627733195988E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgBTW STR)) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN (+ (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (MIN STR AvgBTW)) (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (- AvgSTR AvgSTR))) (- AvgSTR
+     (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (/
+     (MAX STR AvgSTR) (/ (MAX (MAX AvgSTR STR)
+     (MIN AvgSTR AvgBTW)) (MIN (/ AvgBTW (+ STR
+     AvgSTR)) (/ STR BTW)))))) (* (MAX BTW (/
+     BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN (/
+     AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (- AvgSTR (MAX BTW STR)) (/ (MAX (+ AvgBTW
+         BTW) AvgBTW) (/ (MAX (+ STR AvgSTR) (MIN
+         AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW) (/
+         STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (MIN (- AvgSTR
+     AvgSTR) (MIN AvgSTR AvgBTW)))) (/ (MAX AvgSTR
+     (+ (MIN (MAX AvgBTW STR) STR) (- AvgSTR (-
+         AvgBTW (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN
+         BTW AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR)
+         (MIN BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW
+     AvgBTW)))) (/ (+ AvgBTW (* (MIN AvgBTW (+
+     (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR) (MAX
+         BTW STR)) (/ (MAX STR AvgBTW) AvgSTR))) (/
+     (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR) (/
+         (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR) (/
+             AvgBTW AvgSTR))) (MIN BTW AvgSTR))))) (MAX
+     BTW (MAX AvgBTW AvgBTW))))) (MAX BTW (MAX
+     AvgBTW AvgBTW))))
+
+Generation: 92
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10238.022910479067 Adjusted=9.76655691410316E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (- AvgSTR (MAX BTW STR)) (/ (MAX (+ AvgBTW
+         (- BTW AvgSTR)) AvgBTW) (/ (MAX (+ STR AvgSTR)
+         (MIN AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW)
+         (/ STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (/ (/ (* AvgBTW
+     AvgBTW) AvgBTW) (/ (MAX AvgBTW AvgBTW) (+
+     AvgBTW (- AvgSTR (- (- BTW AvgSTR) (- AvgSTR
+     (- (- BTW AvgSTR) (+ AvgSTR AvgSTR))))))))))
+     (/ (MAX AvgSTR (+ (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR)) (- AvgSTR (- AvgBTW (+ (/
+         (* (+ AvgBTW AvgBTW) STR) (MIN BTW AvgSTR))
+         (/ STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+         (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (MAX STR AvgBTW)
+         AvgSTR))) (/ (+ AvgBTW (- AvgSTR (- (- BTW
+         AvgSTR) (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW
+         STR) (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 93
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10237.051271583923 Adjusted=9.767483805981083E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgBTW STR)) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN (+ (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (MIN STR AvgBTW)) (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (- AvgSTR AvgSTR))) (- AvgSTR
+     (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (-
+     AvgBTW STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (MAX
+         BTW STR)) (/ (MAX (+ AvgBTW BTW) AvgBTW)
+         (/ (MAX (+ STR AvgSTR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+         AvgBTW (MAX AvgSTR STR)))) (MAX AvgBTW STR))))
+     (/ (+ AvgSTR AvgBTW) (MAX STR STR))) (/ (MAX
+     AvgSTR (+ (MIN (- AvgSTR (- (- BTW AvgSTR)
+     (+ AvgBTW (+ AvgBTW (- BTW AvgSTR))))) STR)
+     (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW)
+         STR) (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR
+         AvgSTR) (MIN BTW AvgSTR)))))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR)
+     (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+             (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 94
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10237.051271583923 Adjusted=9.767483805981083E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgBTW STR)) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN (+ (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (MIN STR AvgBTW)) (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- BTW AvgSTR)) (+ (- AvgSTR (- AvgBTW STR))
+     (/ STR BTW)))) (- AvgSTR AvgSTR))) (- AvgSTR
+     (- AvgBTW STR))) (+ (MAX AvgBTW AvgBTW) (-
+     AvgBTW STR))) (* (MAX BTW (/ BTW STR)) AvgBTW))
+     (/ (MAX (+ (MAX (MIN (/ AvgSTR (+ AvgBTW
+         (+ AvgBTW STR))) AvgSTR) (MAX BTW STR)) (*
+         (/ BTW (- AvgBTW STR)) (+ (- AvgSTR (MAX
+         BTW STR)) (/ (MAX (+ AvgBTW BTW) AvgBTW)
+         (/ (MAX (+ STR AvgSTR) (MIN AvgSTR AvgBTW))
+             (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+         (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+         AvgBTW (MAX AvgSTR STR)))) (MAX AvgBTW STR))))
+     (/ (+ AvgSTR AvgBTW) (MAX STR STR))) (/ (MAX
+     AvgSTR (+ (MIN (- AvgSTR (- (- BTW AvgSTR)
+     (+ AvgBTW (+ AvgBTW (- BTW AvgSTR))))) STR)
+     (- AvgSTR (- AvgBTW (+ (/ (* (+ AvgBTW AvgBTW)
+         STR) (MIN BTW AvgSTR)) (/ STR (MIN (- AvgSTR
+         AvgSTR) (MIN BTW AvgSTR)))))))) (MAX BTW
+     (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW (* (MIN
+     AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR) AvgSTR)
+     (MAX BTW STR)) (/ (MAX STR AvgBTW) AvgSTR)))
+     (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+         (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+             (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+         (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))))
+
+Generation: 95
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10237.051271583923 Adjusted=9.767483805981083E-5 Hits=26
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgBTW STR)) (MAX BTW (MAX AvgBTW
+     AvgBTW))) (- AvgBTW STR)) (MIN (+ (MIN AvgBTW
+     (+ (MAX (MAX BTW BTW) (MAX BTW STR)) (/ (+
+         (/ AvgSTR AvgBTW) (/ STR BTW)) AvgSTR)))
+     (MIN STR AvgBTW)) (MAX BTW STR))) (MIN (MAX
+     (/ (MAX (- AvgBTW STR) BTW) STR) (- (+ AvgBTW
+     (- (MAX AvgBTW STR) AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (- AvgSTR (MAX BTW STR)) (/ (MAX (+ AvgBTW
+         BTW) AvgBTW) (/ (MAX (+ STR AvgSTR) (MIN
+         AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW) (/
+         STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ (+ AvgSTR AvgBTW)
+     (MAX STR STR))) (/ (MAX AvgSTR (+ (MIN (-
+     AvgSTR (- (- BTW AvgSTR) (+ AvgBTW (+ AvgBTW
+     (- BTW AvgSTR))))) STR) (- AvgSTR (- AvgBTW
+     (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+         AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+         BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ AvgBTW AvgSTR)))
+             (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 96
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10187.426500869344 Adjusted=9.815058291039087E-5 Hits=28
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (/ (- AvgSTR (- AvgBTW (MAX AvgBTW STR)))
+         (MAX AvgBTW STR)) (/ (MAX (+ AvgBTW (- BTW
+         AvgSTR)) AvgBTW) (/ (MAX (+ STR AvgSTR) (MIN
+         AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW) (/
+         STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (/ (/ (* AvgBTW
+     AvgBTW) AvgBTW) (/ (MAX AvgBTW AvgBTW) (+
+     AvgBTW (- AvgSTR (- (- BTW AvgSTR) (- AvgBTW
+     STR)))))))) (/ (MAX AvgSTR (+ (+ (MAX (MAX
+     BTW BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+     (/ STR BTW)) AvgSTR)) (- AvgSTR (- AvgBTW
+     (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+         AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+         BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ AvgBTW AvgSTR)))
+             (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 97
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10187.426500869344 Adjusted=9.815058291039087E-5 Hits=28
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (MAX BTW
+         STR)) (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX
+     BTW (MAX AvgBTW AvgBTW))) (- AvgBTW STR))
+     (MIN (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW)
+         (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/
+         STR BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX
+         BTW STR))) (MIN (MAX (/ (MAX (- AvgBTW STR)
+     BTW) STR) (- (+ AvgBTW (- BTW AvgSTR)) (+
+     (- AvgSTR (- AvgBTW STR)) (/ STR BTW))))
+     (- AvgSTR AvgSTR))) (- AvgSTR (- AvgBTW STR)))
+     (+ (MAX AvgBTW AvgBTW) (- AvgBTW STR))) (*
+     (MAX BTW (/ BTW STR)) AvgBTW)) (/ (MAX (+
+     (MAX (MIN (/ AvgSTR (+ AvgBTW (+ AvgBTW STR)))
+         AvgSTR) (MAX BTW STR)) (* (/ BTW (- AvgBTW
+     STR)) (+ (/ (- AvgSTR (- AvgBTW (MAX AvgBTW
+     STR))) (MAX AvgBTW STR)) (/ (MAX (+ AvgBTW
+     (- BTW AvgSTR)) AvgBTW) (/ (MAX (+ STR AvgSTR)
+     (MIN AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW)
+     (/ STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (/ (/ (* AvgBTW
+     AvgBTW) AvgBTW) (/ (MAX AvgBTW AvgBTW) (+
+     AvgBTW (- AvgSTR (- (- BTW AvgSTR) (- AvgBTW
+     STR)))))))) (/ (MAX AvgSTR (+ (+ (MAX (MAX
+     BTW BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+     (/ STR BTW)) AvgSTR)) (- AvgSTR (- AvgBTW
+     (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+         AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+         BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (MAX STR AvgBTW) AvgSTR))) (/ (+ AvgBTW
+         (- AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+             AvgBTW) (+ (MAX BTW STR) (/ AvgBTW AvgSTR)))
+             (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Generation: 98
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10187.425070468707 Adjusted=9.815059669021014E-5 Hits=28
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (/ (- AvgSTR (- AvgBTW (MAX AvgBTW STR)))
+         (MAX AvgBTW STR)) (/ (MAX (+ AvgBTW (- BTW
+         AvgSTR)) AvgBTW) (/ (MAX (+ STR AvgSTR) (MIN
+         AvgSTR AvgBTW)) (MIN (- AvgSTR AvgBTW) (/
+         STR BTW))))))) (MAX BTW BTW)) (/ (- AvgSTR
+     (- AvgBTW (MAX AvgBTW (MAX AvgSTR STR))))
+     (MAX AvgBTW STR)))) (/ STR (/ (/ (* AvgBTW
+     AvgBTW) AvgBTW) (/ (MAX AvgBTW AvgBTW) (+
+     AvgBTW (- AvgSTR (- (- BTW AvgSTR) (- AvgBTW
+     STR)))))))) (/ (MAX AvgSTR (+ (+ (MAX (MAX
+     BTW BTW) (MAX BTW STR)) (/ (+ (/ AvgSTR AvgBTW)
+     (/ STR BTW)) AvgSTR)) (- AvgSTR (- AvgBTW
+     (+ (/ (* (+ AvgBTW AvgBTW) STR) (MIN BTW
+         AvgSTR)) (/ STR (MIN (- AvgSTR AvgSTR) (MIN
+         BTW AvgSTR)))))))) (MAX BTW (MAX AvgBTW AvgBTW))))
+     (/ (+ AvgBTW (* (MIN AvgBTW (+ (MAX (MIN
+         (/ AvgSTR AvgSTR) AvgSTR) (MAX BTW STR))
+         (/ (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+             (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+                 (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+             (MAX BTW (MAX AvgBTW AvgBTW))) AvgSTR)))
+         (/ (+ AvgBTW (- AvgSTR (- (- BTW AvgSTR)
+             (/ (* (+ AvgBTW AvgBTW) (+ (MAX BTW STR)
+                 (/ AvgBTW AvgSTR))) (MIN BTW AvgSTR)))))
+             (MAX BTW (MAX AvgBTW AvgBTW))))) (MAX BTW
+         (MAX AvgBTW AvgBTW))))
+
+Generation: 99
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10187.425041048002 Adjusted=9.815059697363569E-5 Hits=28
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (/ (- AvgSTR (- AvgBTW (MIN (- AvgSTR
+         AvgSTR) (MAX AvgBTW STR)))) (MAX AvgBTW STR))
+         (/ (MAX (+ AvgBTW (- BTW AvgSTR)) AvgBTW)
+             (/ (MAX (+ STR AvgSTR) (MIN AvgSTR AvgBTW))
+                 (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+     (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+     AvgBTW (MAX AvgSTR STR)))) (MAX AvgBTW STR))))
+     (/ STR (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/
+         (MAX AvgBTW AvgBTW) (+ AvgBTW (- AvgSTR (-
+         (- BTW AvgSTR) (- AvgBTW STR)))))))) (/ (MAX
+     AvgSTR (+ (+ (MAX (MAX BTW BTW) (MAX BTW
+     STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW))
+     AvgSTR)) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (/ (+ AvgBTW (-
+         AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+         AvgBTW) (+ (MAX BTW STR) (/ AvgBTW AvgSTR)))
+         (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (/ (* (+ AvgBTW AvgBTW)
+             (+ (MAX BTW STR) (/ AvgBTW AvgSTR))) (MIN
+             BTW AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=10187.425041048002 Adjusted=9.815059697363569E-5 Hits=28
+Tree 0:
+ (MIN (MIN (+ (/ (MAX (+ (MIN (/ (/ (+ (/
+     (+ AvgBTW (- AvgSTR (- (+ AvgBTW (- BTW AvgSTR))
+         (+ (+ STR AvgSTR) (/ STR BTW))))) (MAX BTW
+     (MAX AvgBTW AvgBTW))) (- AvgBTW STR)) (MIN
+     (+ (MIN AvgBTW (+ (MAX (MAX BTW BTW) (MAX
+         BTW STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR
+         BTW)) AvgSTR))) (MIN STR AvgBTW)) (MAX BTW
+     STR))) (MIN (MAX (/ (MAX (- AvgBTW STR) BTW)
+     STR) (- (+ AvgBTW (- BTW AvgSTR)) (+ (- AvgSTR
+     (- AvgBTW STR)) (/ STR BTW)))) (- AvgSTR
+     AvgSTR))) (- AvgSTR (- AvgBTW STR))) (+ (MAX
+     AvgBTW AvgBTW) (- AvgBTW STR))) (* (MAX BTW
+     (/ BTW STR)) AvgBTW)) (/ (MAX (+ (MAX (MIN
+     (/ AvgSTR (+ AvgBTW (+ AvgBTW STR))) AvgSTR)
+     (MAX BTW STR)) (* (/ BTW (- AvgBTW STR))
+     (+ (/ (- AvgSTR (- AvgBTW (MIN (- AvgSTR
+         AvgSTR) (MAX AvgBTW STR)))) (MAX AvgBTW STR))
+         (/ (MAX (+ AvgBTW (- BTW AvgSTR)) AvgBTW)
+             (/ (MAX (+ STR AvgSTR) (MIN AvgSTR AvgBTW))
+                 (MIN (- AvgSTR AvgBTW) (/ STR BTW)))))))
+     (MAX BTW BTW)) (/ (- AvgSTR (- AvgBTW (MAX
+     AvgBTW (MAX AvgSTR STR)))) (MAX AvgBTW STR))))
+     (/ STR (/ (/ (* AvgBTW AvgBTW) AvgBTW) (/
+         (MAX AvgBTW AvgBTW) (+ AvgBTW (- AvgSTR (-
+         (- BTW AvgSTR) (- AvgBTW STR)))))))) (/ (MAX
+     AvgSTR (+ (+ (MAX (MAX BTW BTW) (MAX BTW
+     STR)) (/ (+ (/ AvgSTR AvgBTW) (/ STR BTW))
+     AvgSTR)) (- AvgSTR (- AvgBTW (+ (/ (* (+
+     AvgBTW AvgBTW) STR) (MIN BTW AvgSTR)) (/
+     STR (MIN (- AvgSTR AvgSTR) (MIN BTW AvgSTR))))))))
+     (MAX BTW (MAX AvgBTW AvgBTW)))) (/ (+ AvgBTW
+     (* (MIN AvgBTW (+ (MAX (MIN (/ AvgSTR AvgSTR)
+         AvgSTR) (MAX BTW STR)) (/ (/ (+ AvgBTW (-
+         AvgSTR (- (- BTW AvgSTR) (/ (* (+ AvgBTW
+         AvgBTW) (+ (MAX BTW STR) (/ AvgBTW AvgSTR)))
+         (MIN BTW AvgSTR))))) (MAX BTW (MAX AvgBTW
+         AvgBTW))) AvgSTR))) (/ (+ AvgBTW (- AvgSTR
+         (- (- BTW AvgSTR) (/ (* (+ AvgBTW AvgBTW)
+             (+ (MAX BTW STR) (/ AvgBTW AvgSTR))) (MIN
+             BTW AvgSTR))))) (MAX BTW (MAX AvgBTW AvgBTW)))))
+     (MAX BTW (MAX AvgBTW AvgBTW))))
